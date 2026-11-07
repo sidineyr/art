@@ -1,5 +1,6 @@
 /* Links editoriais por contexto; nenhuma análise de dados pessoais. */
 (() => {
+ const catalogUrl = new URL('../materiais.html', document.currentScript.src).href;
  const project = "art";
  // Match complete route segments, so public lessons such as #contabilidade
  // and #moderacao-de-debates do not accidentally hide the disclosure.
@@ -80,6 +81,9 @@
   const a=document.createElement('a');a.href=url;a.target='_blank';a.rel='sponsored noopener noreferrer';a.textContent=labels[2];
   const note=document.createElement('p');note.style.cssText='font-size:11px;margin:6px 0 0';note.textContent=labels[3];
   box.append(small,p,a,note);
+  const catalog=document.createElement('a');catalog.href=catalogUrl;catalog.textContent=['Guia de materiais e alternativas gratuitas ↗','Materials and free alternatives ↗','Matériel et alternatives gratuites ↗','Materiales y alternativas gratuitas ↗'][i];
+  catalog.style.cssText='display:block;margin-top:12px;font-size:14px;';box.append(catalog);
+
   const footer=document.querySelector('body > footer');if(footer)footer.before(box);else document.body.append(box);
  }
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',render,{once:true});else render();

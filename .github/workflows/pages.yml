@@ -32,3 +32,5 @@ jobs:
         uses: actions/deploy-pages@v4
         with:
           timeout: 1200000
+      - name: Conferir os arquivos entregues pelo site público
+        run: node scripts/check-published.mjs '${{ steps.deployment.outputs.page_url }}'

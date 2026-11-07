@@ -47,7 +47,7 @@ Cada encontro apresenta **“Nesta aula vamos usar”**, uma tarefa realizável,
 
 As imagens incorporadas podem ser ampliadas e movidas com controles, teclado ou arraste. Uma galeria espacial original do ART oferece também vista sem 3D. Recursos oficiais abrem caminhos para vídeos, passeios 360° e a escultura digitalizada do Smithsonian, sempre com contexto e fonte. Conteúdos externos dependem da disponibilidade das instituições.
 
-Cada ateliê tem uma apresentação temática com o personagem Pequeno Príncipe do Callguid: **64 quadros em 20 segundos**, legendas, leitura completa, opção de pular e nova reprodução. A preferência por redução de movimento apresenta a imagem estática até a pessoa escolher assistir. As ilustrações do guia foram geradas para o projeto e não são obras do acervo.
+Na abertura, o próprio site vira um palco: o personagem flutua pela apresentação das cinco oficinas, convidando a conhecer o que vamos aprender. Cada ateliê também tem uma apresentação temática com o personagem Pequeno Príncipe do Callguid: **64 quadros em 20 segundos**, legendas, leitura completa, opção de pular e nova reprodução. A preferência por redução de movimento apresenta a imagem estática até a pessoa escolher assistir. As ilustrações do guia foram geradas para o projeto e não são obras do acervo.
 
 No teatro, dialogamos com **Viola Spolin, Jogos teatrais: o fichário de Viola Spolin**, em atividades originais de foco, improvisação e reflexão, sem reproduzir as fichas do livro. A referência está registrada no catálogo da Biblioteca Municipal de Santo André.
 

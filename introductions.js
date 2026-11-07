@@ -6,24 +6,28 @@ export const introductions={
  integradas:{title:'Artes integradas',alt:'O Pequeno Príncipe do Callguid combinando formas de papel e ritmo num ateliê verde.',captions:['Aqui as linguagens se encontram. Como uma linha poderia virar gesto ou som?','Escolha duas formas de criar e uma pergunta que queira investigar.','Faça um pequeno protótipo com o que tiver. Observe como uma linguagem transforma a outra.','Revise uma escolha, dê os créditos e pense numa forma acessível de apresentar sua criação.']}
 };
 export function mountIntroduction(area,root){
- const data=introductions[area],hero=root.querySelector('.theme-hero');if(!data||!hero)return()=>{};
+ const isHome=area==='inicio';const data=isHome?{title:'Conheça as oficinas do ART',alt:'O personagem do Callguid apresenta as cinco oficinas de arte.',captions:['Nas artes visuais, vamos desenhar, pintar e criar pequenas esculturas. Venha descobrir cores, formas e materiais.','Na música, vamos escutar, inventar ritmos e compor com sons simples. A mesa, as palmas e seus dedos podem ser instrumentos.','Na dança, vamos transformar gestos em sequências. Você pode participar sentado, em pé ou imaginando movimentos.','No teatro, vamos criar personagens e pequenas cenas, explorando objetos, improvisação e jogos teatrais.','Nas artes integradas, vamos combinar imagem, som, corpo e cena num projeto seu. Escolha uma oficina e venha criar comigo.']}:introductions[area],hero=root.querySelector(isHome?'.hero':'.theme-hero');if(!data||!hero)return()=>{};const assetArea=isHome?'boas-vindas':area;
  const abort=new AbortController();let timer=null,start=0;
- const section=document.createElement('section');section.className='atelier-intro';section.setAttribute('aria-label',`Apresentação do ateliê de ${data.title}`);
- const h=document.createElement('h2');h.textContent=`Seu guia no ateliê de ${data.title}`;section.append(h);
+ const section=document.createElement('dialog');section.className='atelier-intro atelier-stage';section.setAttribute('aria-labelledby','intro-title');
+ const h=document.createElement('h2');h.id='intro-title';h.textContent=isHome?'O ART é o seu palco':`Vamos explorar ${data.title}`;section.append(h);
  const layout=document.createElement('div');layout.className='atelier-intro-layout';section.append(layout);
- const image=document.createElement('img');image.width=384;image.height=384;image.alt=data.alt;image.src=`assets/intro-${area}.png`;layout.append(image);
- const content=document.createElement('div');layout.append(content);const p=document.createElement('p');p.textContent='Uma apresentação de 20 segundos com o personagem do Callguid. Sem som automático.';content.append(p);
+ const image=document.createElement('img');image.width=384;image.height=384;image.alt=data.alt;image.src=`assets/intro-${assetArea}.png`;layout.append(image);
+ const content=document.createElement('div');layout.append(content);
  const caption=document.createElement('p');caption.className='intro-caption';caption.textContent=data.captions[0];content.append(caption);
  const progress=document.createElement('progress');progress.className='intro-progress';progress.max=20;progress.value=0;progress.setAttribute('aria-label','Tempo da apresentação');content.append(progress);
  const controls=document.createElement('div');controls.className='experience-controls';content.append(controls);
  const play=document.createElement('button');play.type='button';play.textContent='Assistir · 20 segundos';controls.append(play);
  const skip=document.createElement('button');skip.type='button';skip.textContent='Pular apresentação';controls.append(skip);
+ if(isHome){const nav=document.createElement('nav');nav.className='intro-workshops';nav.setAttribute('aria-label','Escolha sua oficina');for(const [id,info] of Object.entries(introductions)){const a=document.createElement('a');a.href='#atelie/'+id;a.textContent=info.title;nav.append(a);}content.append(nav);}
  const transcript=document.createElement('details');const summary=document.createElement('summary');summary.textContent='Ler a apresentação completa';transcript.append(summary);for(const line of data.captions){const p=document.createElement('p');p.textContent=line;transcript.append(p);}content.append(transcript);
- const stop=()=>{clearInterval(timer);timer=null;image.onload=null;image.onerror=null;image.src=`assets/intro-${area}.png`;play.textContent='Assistir novamente · 20 segundos';play.disabled=false;};
- play.addEventListener('click',()=>{stop();play.disabled=true;play.textContent='Carregando apresentação…';caption.textContent=data.captions[0];progress.value=0;image.onload=()=>{image.onload=null;start=performance.now();play.disabled=false;play.textContent='Recomeçar · 20 segundos';timer=setInterval(()=>{const elapsed=(performance.now()-start)/1000;progress.value=Math.min(20,elapsed);caption.textContent=data.captions[Math.min(3,Math.floor(elapsed/5))];if(elapsed>=20)stop();},100);};image.onerror=()=>{stop();caption.textContent='A animação não carregou. Você pode ler a apresentação completa abaixo e continuar o percurso.';};image.src=`assets/intro-${area}.gif`;},{signal:abort.signal});
- skip.addEventListener('click',()=>{stop();root.querySelector('.lesson-button')?.focus();section.hidden=true;},{signal:abort.signal});
+ const stop=()=>{clearInterval(timer);timer=null;image.onload=null;image.onerror=null;image.src=`assets/intro-${assetArea}.png`;play.textContent='Assistir novamente · 20 segundos';play.disabled=false;};
+ play.addEventListener('click',()=>{stop();play.disabled=true;play.textContent='Carregando apresentação…';caption.textContent=data.captions[0];progress.value=0;image.onload=()=>{image.onload=null;start=performance.now();play.disabled=false;play.textContent='Recomeçar · 20 segundos';timer=setInterval(()=>{const elapsed=(performance.now()-start)/1000;if(isHome){const scene=Object.keys(introductions)[Math.min(4,Math.floor(elapsed/4))];section.dataset.scene=scene;h.textContent=introductions[scene].title;}progress.value=Math.min(20,elapsed);caption.textContent=data.captions[Math.min(data.captions.length-1,Math.floor(elapsed/(20/data.captions.length)))];if(elapsed>=20){stop();section.close();}},100);};image.onerror=()=>{stop();caption.textContent='A animação não carregou. Você pode ler a apresentação completa abaixo e continuar o percurso.';};image.src=`assets/intro-${assetArea}.gif`;},{signal:abort.signal});
+ skip.addEventListener('click',()=>section.close(),{signal:abort.signal});
+ const replay=document.createElement('button');replay.type='button';replay.className='text-link intro-replay';replay.textContent='Rever apresentação · 20 segundos';
+ const open=()=>{section.showModal();if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches)play.click();};
+ replay.addEventListener('click',open,{signal:abort.signal});
+ section.addEventListener('close',()=>{stop();if(replay.isConnected)replay.focus();},{signal:abort.signal});
  document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();},{signal:abort.signal});
- hero.after(section);
- if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches)play.click();
- return()=>{clearInterval(timer);image.onload=null;image.onerror=null;abort.abort();};
+ hero.after(replay);root.append(section);open();
+ return()=>{clearInterval(timer);image.onload=null;image.onerror=null;abort.abort();section.remove();replay.remove();};
 }

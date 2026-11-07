@@ -27,3 +27,18 @@ footer .institution-links{height:20px;gap:6px;font-size:.5rem}footer .institutio
 footer{min-height:180px}footer .institution-links{height:18px}footer .institution-links a{height:18px}
 
 footer .site-counter{display:flex;align-items:center;gap:8px;flex-wrap:wrap}footer .site-counter img{height:20px;width:110px;object-fit:contain}footer .site-counter small{font-size:.6rem;max-width:240px}
+
+/* The site becomes a stage; the guide floats over the existing page, without a card frame. */
+dialog.atelier-stage{position:fixed;inset:0;width:100vw;height:100dvh;max-width:none;max-height:none;margin:0;padding:5vh 8vw;border:0;background:radial-gradient(ellipse at 35% 48%,#fff1cd12,transparent 60%),linear-gradient(#12101b55,#12101bdf);color:#fff9e9;overflow:auto;box-shadow:none}
+dialog.atelier-stage::backdrop{background:#12101899;backdrop-filter:blur(2px)}
+.atelier-stage::before,.atelier-stage::after{content:'';position:fixed;top:0;bottom:0;width:5vw;min-width:18px;background:repeating-linear-gradient(90deg,#3b1223,#681c32 38%,#2c0f20 70%);box-shadow:0 0 30px #0008;pointer-events:none}.atelier-stage::before{left:0}.atelier-stage::after{right:0}
+.atelier-stage h2{font-size:clamp(1.6rem,4vw,3rem);margin:0;text-align:center;color:#fff3cd;text-shadow:0 3px 16px #000}
+.atelier-stage .atelier-intro-layout{display:grid;grid-template-columns:minmax(250px,1.15fr) 1fr;align-items:center;gap:4vw;max-width:1200px;min-height:78dvh;margin:auto}
+.atelier-stage img{width:100%;height:auto;aspect-ratio:1;max-width:65dvh;max-height:65dvh;object-fit:contain;mask-image:radial-gradient(ellipse at center,#000 43%,#000c 57%,transparent 74%);filter:drop-shadow(0 15px 30px #0005);animation:guide-float 5s ease-in-out infinite}
+.atelier-stage .intro-note{font-size:.85rem;color:#efe5d3}.atelier-stage .intro-caption{font-size:clamp(1.15rem,2.1vw,1.7rem);line-height:1.55;text-shadow:0 2px 8px #000;margin:20px 0}
+.atelier-stage .experience-controls{background:transparent;position:static}.atelier-stage .experience-controls button{background:#fff9e916;color:#fff9e9;border:1px solid #fff9e95e;border-radius:24px;padding:9px 17px}.atelier-stage .intro-progress{height:4px;accent-color:#efc27d}.atelier-stage details{font-size:.8rem;margin-top:14px}.atelier-stage details[open]{background:#17121ee8;padding:14px;border-radius:8px}.intro-workshops{display:flex;gap:10px;flex-wrap:wrap;font-size:.8rem}.intro-workshops a{padding:4px 0;margin-right:8px;color:#fff2ce}.intro-replay{margin:12px 0 24px}
+@keyframes guide-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+@media(max-width:650px){dialog.atelier-stage{padding:3vh 9vw}.atelier-stage .atelier-intro-layout{grid-template-columns:1fr;gap:0;min-height:auto}.atelier-stage img{max-height:37dvh;width:min(100%,340px);margin:auto}.atelier-stage h2{font-size:1.6rem}.atelier-stage .intro-caption{font-size:1.08rem;margin:10px 0}.atelier-stage .intro-note{margin:4px 0}.atelier-stage .experience-controls{margin:8px 0}.atelier-stage details{margin-top:7px}}
+@media(prefers-reduced-motion:reduce){.atelier-stage img{animation:none}}
+
+body[data-theme=musica] .atelier-stage,.atelier-stage[data-scene=musica]{filter:grayscale(1)}

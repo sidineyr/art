@@ -32,6 +32,12 @@
       "frames": 64,
       "durationMs": 20000,
       "bytes": 3354231
+    },
+    {
+      "area": "boas-vindas",
+      "frames": 64,
+      "durationMs": 20000,
+      "bytes": 2581813
     }
   ]
 }

@@ -22,7 +22,42 @@
         "adolescencia": "Compare duas versões de um mesmo objeto e justifique como cor e enquadramento mudam sua leitura.",
         "adultos": "Escolha um objeto de uso diário e represente uma memória ligada a ele, distinguindo observação e lembrança.",
         "livre": "Faça uma versão curta com três linhas ou aprofunde criando duas interpretações contrastantes."
-      }
+      },
+      "task": "Desenhe o mesmo objeto com linhas e depois com manchas. Compare as sensações.",
+      "journey": [
+        {
+          "title": "Olhar e perguntar",
+          "minutes": 2,
+          "instruction": "Que caminhos seus olhos percorrem primeiro? O que muda quando você observa de perto?"
+        },
+        {
+          "title": "Experimentar 1",
+          "minutes": 3,
+          "instruction": "Observe um objeto cotidiano de longe e depois de perto. Encontre três linhas, duas formas e uma textura."
+        },
+        {
+          "title": "Experimentar 2",
+          "minutes": 3,
+          "instruction": "Desenhe o objeto usando apenas linhas; ao lado, represente-o usando apenas manchas de cor ou diferentes pressões do lápis."
+        },
+        {
+          "title": "Experimentar 3",
+          "minutes": 3,
+          "instruction": "Dê um título às duas versões e explique qual sensação cada uma comunica."
+        },
+        {
+          "title": "Rever e guardar uma descoberta",
+          "minutes": 2,
+          "instruction": "Que escolha sua fez a imagem parecer calma, agitada ou curiosa? Você pode responder falando, pensando, desenhando ou no caderno."
+        }
+      ],
+      "durationMinutes": 13,
+      "teacherPrompt": "Experimente uma segunda versão mudando apenas uma escolha. O que mudou? Mostre um detalhe que sustente sua resposta.",
+      "selfAssessment": [
+        "Consigo explicar uma escolha que fiz.",
+        "Testei uma alternativa e percebi uma diferença.",
+        "Tenho uma pergunta para continuar investigando."
+      ]
     },
     {
       "id": "conhecer",
@@ -46,7 +81,42 @@
         "adolescencia": "Compare sua hipótese inicial com os dados do museu e registre uma dúvida que continua aberta.",
         "adultos": "Investigue como material, contexto de exibição e título influenciam sua leitura.",
         "livre": "Observe só um detalhe e consulte sua ficha; se desejar, compare duas obras."
-      }
+      },
+      "task": "Faça um estudo de um detalhe da obra e separe observação de interpretação.",
+      "journey": [
+        {
+          "title": "Olhar e perguntar",
+          "minutes": 2,
+          "instruction": "O que você realmente vê e o que está imaginando sobre esta obra?"
+        },
+        {
+          "title": "Experimentar 1",
+          "minutes": 3,
+          "instruction": "Observe a obra selecionada sem ler o texto durante um minuto. Anote três detalhes concretos."
+        },
+        {
+          "title": "Experimentar 2",
+          "minutes": 3,
+          "instruction": "Leia a ficha institucional e separe suas notas em 'eu observei', 'a fonte informa' e 'eu interpreto'."
+        },
+        {
+          "title": "Experimentar 3",
+          "minutes": 3,
+          "instruction": "Escolha um detalhe e faça um desenho, descrição ou pequeno modelo que mostre por que ele chamou sua atenção."
+        },
+        {
+          "title": "Rever e guardar uma descoberta",
+          "minutes": 2,
+          "instruction": "Que informação da ficha mudou sua primeira interpretação? Você pode responder falando, pensando, desenhando ou no caderno."
+        }
+      ],
+      "durationMinutes": 13,
+      "teacherPrompt": "Experimente uma segunda versão mudando apenas uma escolha. O que mudou? Mostre um detalhe que sustente sua resposta.",
+      "selfAssessment": [
+        "Consigo explicar uma escolha que fiz.",
+        "Testei uma alternativa e percebi uma diferença.",
+        "Tenho uma pergunta para continuar investigando."
+      ]
     },
     {
       "id": "experimentar",
@@ -73,7 +143,47 @@
         "adolescencia": "Crie três versões de uma forma e registre qual técnica produz maior contraste.",
         "adultos": "Investigue como marcas do material se relacionam com lembranças de um lugar ou ofício.",
         "livre": "Experimente só uma técnica ou reúna as três em uma página de estudos."
-      }
+      },
+      "task": "Crie três versões de uma forma: desenho, montagem com papéis e textura.",
+      "journey": [
+        {
+          "title": "Olhar e perguntar",
+          "minutes": 2,
+          "instruction": "A mesma forma parece diferente quando é desenhada, recortada ou impressa?"
+        },
+        {
+          "title": "Experimentar 1",
+          "minutes": 3,
+          "instruction": "Desenhe uma forma que você inventou e repita-a com tamanhos diferentes."
+        },
+        {
+          "title": "Experimentar 2",
+          "minutes": 3,
+          "instruction": "Monte a mesma forma com retalhos, aproximando ou sobrepondo os pedaços; se não houver cola, fotografe mentalmente ou descreva a montagem."
+        },
+        {
+          "title": "Experimentar 3",
+          "minutes": 3,
+          "instruction": "Coloque papel sobre uma superfície segura com relevo e esfregue o lápis de lado para obter uma textura; use a textura em outra composição."
+        },
+        {
+          "title": "Experimentar 4",
+          "minutes": 3,
+          "instruction": "Compare o desenho, a colagem e a textura obtida por fricção. Escolha o processo mais adequado à sensação que deseja comunicar."
+        },
+        {
+          "title": "Rever e guardar uma descoberta",
+          "minutes": 2,
+          "instruction": "O que foi descoberto por acaso e vale a pena repetir? Você pode responder falando, pensando, desenhando ou no caderno."
+        }
+      ],
+      "durationMinutes": 16,
+      "teacherPrompt": "Experimente uma segunda versão mudando apenas uma escolha. O que mudou? Mostre um detalhe que sustente sua resposta.",
+      "selfAssessment": [
+        "Consigo explicar uma escolha que fiz.",
+        "Testei uma alternativa e percebi uma diferença.",
+        "Tenho uma pergunta para continuar investigando."
+      ]
     },
     {
       "id": "criar",
@@ -82,14 +192,16 @@
       "observe": "O que aparece quando você gira uma forma que não podia ser visto de frente?",
       "context": "Esculturas e modelagens podem ser observadas por diferentes ângulos. Aqui a proposta é criar uma forma original a partir de uma ideia cotidiana, sem reproduzir símbolos culturais cujo sentido não foi estudado.",
       "materials": [
-        "Papel reutilizado ou massa de modelar disponível",
-        "Base de papelão opcional"
+        "Papel reutilizado para amassar ou dobrar; alternativamente, argila ou massa já disponível",
+        "Base firme e lavável",
+        "Tinta lavável e pincel ou dedos, opcionais"
       ],
       "steps": [
         "Escolha uma ideia, como abrigo, encontro ou movimento. Faça dois esboços de como ela poderia ocupar o espaço.",
         "Dobre, amasse ou modele o material. Teste como a forma se sustenta sem pontas perigosas.",
         "Gire a peça ou descreva três pontos de vista. Modifique uma parte para reforçar sua ideia.",
-        "Dê um título e explique uma decisão de volume, vazio ou equilíbrio."
+        "Dê um título e explique uma decisão de volume, vazio ou equilíbrio.",
+        "Se quiser pintar, use tinta adequada ao material. Na argila, respeite a secagem indicada pelo fabricante; a pintura pode ficar para outro dia. O encontro não inclui esse tempo de espera."
       ],
       "adaptation": "Projete a escultura por descrição, organize peças com apoio ou desenhe vistas alternativas. A decisão artística pode ser sua mesmo com assistência na execução.",
       "reflection": "Que diferença existe entre sua ideia inicial e a forma que o material permitiu criar?",
@@ -98,7 +210,52 @@
         "adolescencia": "Crie uma peça que pareça mover-se e teste três posições antes de escolher uma.",
         "adultos": "Construa uma forma ligada a uma experiência pessoal e escreva uma legenda de processo.",
         "livre": "Crie uma peça pequena ou desenvolva um conjunto com três variações."
-      }
+      },
+      "task": "Modele uma pequena escultura com papel amassado ou argila disponível.",
+      "journey": [
+        {
+          "title": "Olhar e perguntar",
+          "minutes": 2,
+          "instruction": "O que aparece quando você gira uma forma que não podia ser visto de frente?"
+        },
+        {
+          "title": "Experimentar 1",
+          "minutes": 3,
+          "instruction": "Escolha uma ideia, como abrigo, encontro ou movimento. Faça dois esboços de como ela poderia ocupar o espaço."
+        },
+        {
+          "title": "Experimentar 2",
+          "minutes": 3,
+          "instruction": "Dobre, amasse ou modele o material. Teste como a forma se sustenta sem pontas perigosas."
+        },
+        {
+          "title": "Experimentar 3",
+          "minutes": 3,
+          "instruction": "Gire a peça ou descreva três pontos de vista. Modifique uma parte para reforçar sua ideia."
+        },
+        {
+          "title": "Experimentar 4",
+          "minutes": 3,
+          "instruction": "Dê um título e explique uma decisão de volume, vazio ou equilíbrio."
+        },
+        {
+          "title": "Experimentar 5",
+          "minutes": 3,
+          "instruction": "Se quiser pintar, use tinta adequada ao material. Na argila, respeite a secagem indicada pelo fabricante; a pintura pode ficar para outro dia. O encontro não inclui esse tempo de espera."
+        },
+        {
+          "title": "Rever e guardar uma descoberta",
+          "minutes": 2,
+          "instruction": "Que diferença existe entre sua ideia inicial e a forma que o material permitiu criar? Você pode responder falando, pensando, desenhando ou no caderno."
+        }
+      ],
+      "durationMinutes": 19,
+      "teacherPrompt": "Experimente uma segunda versão mudando apenas uma escolha. O que mudou? Mostre um detalhe que sustente sua resposta.",
+      "selfAssessment": [
+        "Consigo explicar uma escolha que fiz.",
+        "Testei uma alternativa e percebi uma diferença.",
+        "Tenho uma pergunta para continuar investigando."
+      ]
     },
     {
       "id": "conectar",
@@ -124,7 +281,47 @@
         "adolescencia": "Produza dois enquadramentos que comuniquem ideias diferentes usando a mesma montagem.",
         "adultos": "Transforme um canto doméstico em comentário visual sobre rotina ou cuidado, com objetos que já possui.",
         "livre": "Explore apenas o enquadramento ou planeje também uma sequência digital."
-      }
+      },
+      "task": "Monte uma composição de três objetos e escolha dois enquadramentos.",
+      "journey": [
+        {
+          "title": "Olhar e perguntar",
+          "minutes": 2,
+          "instruction": "Como a posição dos objetos muda a maneira de olhar um lugar?"
+        },
+        {
+          "title": "Experimentar 1",
+          "minutes": 3,
+          "instruction": "Organize três objetos em uma superfície sem bloquear passagem. Use distância, repetição ou contraste para comunicar uma ideia."
+        },
+        {
+          "title": "Experimentar 2",
+          "minutes": 3,
+          "instruction": "Escolha dois enquadramentos com um retângulo de papel ou com as mãos. Se preferir, fotografe sem incluir pessoas ou dados pessoais."
+        },
+        {
+          "title": "Experimentar 3",
+          "minutes": 3,
+          "instruction": "Desenhe um plano de uma versão digital: o que poderia mudar com luz, camadas ou sequência de imagens?"
+        },
+        {
+          "title": "Experimentar 4",
+          "minutes": 3,
+          "instruction": "Compare o espaço real e seu enquadramento. Explique o que foi incluído e o que ficou de fora."
+        },
+        {
+          "title": "Rever e guardar uma descoberta",
+          "minutes": 2,
+          "instruction": "O registro conta a mesma história que estar diante da montagem? Você pode responder falando, pensando, desenhando ou no caderno."
+        }
+      ],
+      "durationMinutes": 16,
+      "teacherPrompt": "Experimente uma segunda versão mudando apenas uma escolha. O que mudou? Mostre um detalhe que sustente sua resposta.",
+      "selfAssessment": [
+        "Consigo explicar uma escolha que fiz.",
+        "Testei uma alternativa e percebi uma diferença.",
+        "Tenho uma pergunta para continuar investigando."
+      ]
     },
     {
       "id": "compartilhar",
@@ -149,7 +346,47 @@
         "adolescencia": "Apresente um antes e depois e explique a revisão que melhorou sua intenção expressiva.",
         "adultos": "Monte uma seleção comentada que conecte escolhas materiais e experiências pessoais.",
         "livre": "Faça uma mostra de uma única produção ou uma pequena curadoria de todo o percurso."
-      }
+      },
+      "task": "Organize uma pequena exposição com dois trabalhos e um estudo.",
+      "journey": [
+        {
+          "title": "Olhar e perguntar",
+          "minutes": 2,
+          "instruction": "Qual trabalho mostra melhor uma descoberta, mesmo sem ser seu favorito?"
+        },
+        {
+          "title": "Experimentar 1",
+          "minutes": 3,
+          "instruction": "Escolha duas produções e um estudo que mostrem uma mudança de ideia."
+        },
+        {
+          "title": "Experimentar 2",
+          "minutes": 3,
+          "instruction": "Escreva para cada uma título, material e uma frase sobre uma escolha sua. Liste à parte as obras consultadas e suas fontes."
+        },
+        {
+          "title": "Experimentar 3",
+          "minutes": 3,
+          "instruction": "Organize a apresentação em uma mesa, pasta ou sequência descrita. Convide alguém a dizer o que percebe antes de explicar."
+        },
+        {
+          "title": "Experimentar 4",
+          "minutes": 3,
+          "instruction": "Registre uma descoberta, uma dificuldade e uma experiência que gostaria de fazer depois."
+        },
+        {
+          "title": "Rever e guardar uma descoberta",
+          "minutes": 2,
+          "instruction": "O que você consegue observar ou fazer agora que ainda não conseguia no início? Você pode responder falando, pensando, desenhando ou no caderno."
+        }
+      ],
+      "durationMinutes": 16,
+      "teacherPrompt": "Experimente uma segunda versão mudando apenas uma escolha. O que mudou? Mostre um detalhe que sustente sua resposta.",
+      "selfAssessment": [
+        "Consigo explicar uma escolha que fiz.",
+        "Testei uma alternativa e percebi uma diferença.",
+        "Tenho uma pergunta para continuar investigando."
+      ]
     }
   ],
   "musica": [
@@ -176,7 +413,42 @@
         "adolescencia": "Crie um mapa com sons próximos e distantes e discuta o que a escuta revela sobre o lugar.",
         "adultos": "Compare dois momentos da rotina e pense como a paisagem sonora influencia atenção e bem-estar.",
         "livre": "Faça um mapa de três sons ou investigue um minuto inteiro de mudanças."
-      }
+      },
+      "task": "Crie um mapa de cinco sons e pausas do seu ambiente.",
+      "journey": [
+        {
+          "title": "Olhar e perguntar",
+          "minutes": 2,
+          "instruction": "Quais sons estão perto, quais estão longe e quais aparecem apenas quando você espera?"
+        },
+        {
+          "title": "Experimentar 1",
+          "minutes": 3,
+          "instruction": "Reserve um minuto para escutar em volume confortável. Não grave pessoas nem conversas."
+        },
+        {
+          "title": "Experimentar 2",
+          "minutes": 3,
+          "instruction": "Represente cinco acontecimentos sonoros com sinais inventados; inclua pausas."
+        },
+        {
+          "title": "Experimentar 3",
+          "minutes": 3,
+          "instruction": "Escolha dois sons e compare duração, intensidade e timbre. Reproduza-os suavemente com a voz, com gestos ou por descrição."
+        },
+        {
+          "title": "Rever e guardar uma descoberta",
+          "minutes": 2,
+          "instruction": "Que som passou despercebido antes da pausa para escutar? Você pode responder falando, pensando, desenhando ou no caderno."
+        }
+      ],
+      "durationMinutes": 13,
+      "teacherPrompt": "Experimente uma segunda versão mudando apenas uma escolha. O que mudou? Mostre um detalhe que sustente sua resposta.",
+      "selfAssessment": [
+        "Consigo explicar uma escolha que fiz.",
+        "Testei uma alternativa e percebi uma diferença.",
+        "Tenho uma pergunta para continuar investigando."
+      ]
     },
     {
       "id": "conhecer",
@@ -201,7 +473,47 @@
         "adolescencia": "Distinga composição e interpretação e proponha uma hipótese sobre o efeito de um contraste percebido.",
         "adultos": "Investigue como suas memórias influenciam a escuta, separando associação pessoal de dado documentado.",
         "livre": "Escolha um pequeno trecho ou compare duas passagens da mesma peça."
-      }
+      },
+      "task": "Escute ou leia uma peça duas vezes, procurando um padrão diferente a cada vez.",
+      "journey": [
+        {
+          "title": "Olhar e perguntar",
+          "minutes": 2,
+          "instruction": "O que retorna, o que se transforma e como você percebe essas mudanças?"
+        },
+        {
+          "title": "Experimentar 1",
+          "minutes": 3,
+          "instruction": "Consulte a ficha e registre quais informações estão disponíveis: título, composição, interpretação e data."
+        },
+        {
+          "title": "Experimentar 2",
+          "minutes": 3,
+          "instruction": "Se houver áudio acessível, escute um trecho e marque repetições, contrastes e pausas; com partitura, observe sinais e padrões visuais descritos pela fonte."
+        },
+        {
+          "title": "Experimentar 3",
+          "minutes": 3,
+          "instruction": "Na segunda exploração, acompanhe apenas um aspecto: um timbre, uma mudança de intensidade ou um padrão da escrita."
+        },
+        {
+          "title": "Experimentar 4",
+          "minutes": 3,
+          "instruction": "Compare sua percepção com a descrição institucional e formule uma pergunta ainda não respondida."
+        },
+        {
+          "title": "Rever e guardar uma descoberta",
+          "minutes": 2,
+          "instruction": "O que a segunda exploração revelou que a primeira não mostrou? Você pode responder falando, pensando, desenhando ou no caderno."
+        }
+      ],
+      "durationMinutes": 16,
+      "teacherPrompt": "Experimente uma segunda versão mudando apenas uma escolha. O que mudou? Mostre um detalhe que sustente sua resposta.",
+      "selfAssessment": [
+        "Consigo explicar uma escolha que fiz.",
+        "Testei uma alternativa e percebi uma diferença.",
+        "Tenho uma pergunta para continuar investigando."
+      ]
     },
     {
       "id": "experimentar",
@@ -210,8 +522,8 @@
       "observe": "Como o mesmo grupo de sons muda quando uma pausa troca de lugar?",
       "context": "Ritmo pode ser explorado com durações, repetições e silêncios. As sequências desta atividade são exercícios originais, sem serem apresentadas como representação de uma tradição cultural.",
       "materials": [
-        "Mãos, voz ou objeto seguro",
-        "Papel"
+        "Uma superfície firme para tocar suavemente, ou somente mãos e dedos",
+        "Papel e lápis opcionais para sinais de som e silêncio"
       ],
       "steps": [
         "Escolha um som suave e um gesto de silêncio. Faça quatro pulsações lentas e regulares.",
@@ -226,7 +538,47 @@
         "adolescencia": "Crie uma sequência-base e duas variações, anotando exatamente o que mudou.",
         "adultos": "Explore como um padrão de trabalho cotidiano poderia virar um exercício rítmico autoral.",
         "livre": "Trabalhe quatro posições ou amplie para oito mantendo uma pausa intencional."
-      }
+      },
+      "task": "Bata suavemente quatro pulsações numa mesa ou use palmas, dedos ou sinais visuais; invente um ritmo com pausas.",
+      "journey": [
+        {
+          "title": "Olhar e perguntar",
+          "minutes": 2,
+          "instruction": "Como o mesmo grupo de sons muda quando uma pausa troca de lugar?"
+        },
+        {
+          "title": "Experimentar 1",
+          "minutes": 3,
+          "instruction": "Escolha um som suave e um gesto de silêncio. Faça quatro pulsações lentas e regulares."
+        },
+        {
+          "title": "Experimentar 2",
+          "minutes": 3,
+          "instruction": "Crie uma sequência de quatro posições combinando sons e pausas. Anote-a com sinais inventados."
+        },
+        {
+          "title": "Experimentar 3",
+          "minutes": 3,
+          "instruction": "Repita a sequência e altere apenas uma posição. Depois experimente um som de outro timbre."
+        },
+        {
+          "title": "Experimentar 4",
+          "minutes": 3,
+          "instruction": "Compare o efeito da pausa e da troca de timbre sem tocar mais alto."
+        },
+        {
+          "title": "Rever e guardar uma descoberta",
+          "minutes": 2,
+          "instruction": "Qual mudança alterou mais o caráter do seu ritmo? Você pode responder falando, pensando, desenhando ou no caderno."
+        }
+      ],
+      "durationMinutes": 16,
+      "teacherPrompt": "Experimente uma segunda versão mudando apenas uma escolha. O que mudou? Mostre um detalhe que sustente sua resposta.",
+      "selfAssessment": [
+        "Consigo explicar uma escolha que fiz.",
+        "Testei uma alternativa e percebi uma diferença.",
+        "Tenho uma pergunta para continuar investigando."
+      ]
     },
     {
       "id": "criar",
@@ -251,7 +603,47 @@
         "adolescencia": "Defina uma regra de composição e mostre como ela se transforma no trecho final.",
         "adultos": "Crie uma peça curta ligada a um lugar ou memória, anotando o que é invenção e o que é referência.",
         "livre": "Faça três acontecimentos sonoros ou uma sequência de aproximadamente meio minuto."
-      }
+      },
+      "task": "Componha cerca de 30 segundos com três sons possíveis e um silêncio.",
+      "journey": [
+        {
+          "title": "Olhar e perguntar",
+          "minutes": 2,
+          "instruction": "Como alguém percebe que sua criação começou, mudou e terminou?"
+        },
+        {
+          "title": "Experimentar 1",
+          "minutes": 3,
+          "instruction": "Escolha uma ideia, como chuva imaginada ou uma caminhada. Liste três sons ou sinais que você pode produzir confortavelmente."
+        },
+        {
+          "title": "Experimentar 2",
+          "minutes": 3,
+          "instruction": "Desenhe uma sequência com começo, transformação e final; marque onde haverá silêncio."
+        },
+        {
+          "title": "Experimentar 3",
+          "minutes": 3,
+          "instruction": "Execute ou conduza a sequência uma vez. Identifique uma parte confusa e revise sua duração ou ordem."
+        },
+        {
+          "title": "Experimentar 4",
+          "minutes": 3,
+          "instruction": "Apresente novamente e explique uma decisão. Se não executar, faça uma leitura guiada dos sinais."
+        },
+        {
+          "title": "Rever e guardar uma descoberta",
+          "minutes": 2,
+          "instruction": "Que revisão tornou a intenção mais perceptível? Você pode responder falando, pensando, desenhando ou no caderno."
+        }
+      ],
+      "durationMinutes": 16,
+      "teacherPrompt": "Experimente uma segunda versão mudando apenas uma escolha. O que mudou? Mostre um detalhe que sustente sua resposta.",
+      "selfAssessment": [
+        "Consigo explicar uma escolha que fiz.",
+        "Testei uma alternativa e percebi uma diferença.",
+        "Tenho uma pergunta para continuar investigando."
+      ]
     },
     {
       "id": "conectar",
@@ -276,7 +668,47 @@
         "adolescencia": "Compare efeitos de densidade, silêncio e timbre sem depender só da oposição rápido/lento.",
         "adultos": "Planeje duas trilhas para uma cena cotidiana e discuta como orientam a atenção de quem acompanha.",
         "livre": "Combine dois sinais e uma imagem ou desenvolva uma pequena cena."
-      }
+      },
+      "task": "Crie duas trilhas suaves para o mesmo desenho e compare o efeito.",
+      "journey": [
+        {
+          "title": "Olhar e perguntar",
+          "minutes": 2,
+          "instruction": "Uma imagem parece mudar quando a sequência sonora muda?"
+        },
+        {
+          "title": "Experimentar 1",
+          "minutes": 3,
+          "instruction": "Escolha um desenho seu e crie duas sequências curtas: uma com poucos acontecimentos e outra com maior contraste."
+        },
+        {
+          "title": "Experimentar 2",
+          "minutes": 3,
+          "instruction": "Apresente o desenho com cada sequência, executando ou descrevendo sons e pausas."
+        },
+        {
+          "title": "Experimentar 3",
+          "minutes": 3,
+          "instruction": "Escolha um gesto acessível para acompanhar cada versão e observe como muda a leitura."
+        },
+        {
+          "title": "Experimentar 4",
+          "minutes": 3,
+          "instruction": "Registre quais relações foram intencionais e quais surgiram durante a experiência."
+        },
+        {
+          "title": "Rever e guardar uma descoberta",
+          "minutes": 2,
+          "instruction": "Como você justificaria duas trilhas diferentes para a mesma imagem? Você pode responder falando, pensando, desenhando ou no caderno."
+        }
+      ],
+      "durationMinutes": 16,
+      "teacherPrompt": "Experimente uma segunda versão mudando apenas uma escolha. O que mudou? Mostre um detalhe que sustente sua resposta.",
+      "selfAssessment": [
+        "Consigo explicar uma escolha que fiz.",
+        "Testei uma alternativa e percebi uma diferença.",
+        "Tenho uma pergunta para continuar investigando."
+      ]
     },
     {
       "id": "compartilhar",
@@ -300,7 +732,47 @@
         "adolescencia": "Use duração, timbre, intensidade ou repetição para comentar uma decisão concreta.",
         "adultos": "Relacione sua criação a uma mudança na maneira de escutar o cotidiano.",
         "livre": "Registre uma descoberta ou organize um caderno com exemplos de todo o percurso."
-      }
+      },
+      "task": "Revisite sua composição e teste uma mudança após a escuta.",
+      "journey": [
+        {
+          "title": "Olhar e perguntar",
+          "minutes": 2,
+          "instruction": "Como comentar uma criação sem resumir tudo a 'gostei' ou 'não gostei'?"
+        },
+        {
+          "title": "Experimentar 1",
+          "minutes": 3,
+          "instruction": "Escolha uma escuta registrada e uma criação sua. Identifique uma diferença entre elas."
+        },
+        {
+          "title": "Experimentar 2",
+          "minutes": 3,
+          "instruction": "Apresente sua criação ou seus sinais e diga qual aspecto gostaria que fosse observado."
+        },
+        {
+          "title": "Experimentar 3",
+          "minutes": 3,
+          "instruction": "Peça um comentário começando por 'percebi...' e uma pergunta começando por 'como você escolheu...'. Se estiver só, use essas frases para reler o trabalho."
+        },
+        {
+          "title": "Experimentar 4",
+          "minutes": 3,
+          "instruction": "Anote uma revisão possível e um recurso musical que quer explorar mais."
+        },
+        {
+          "title": "Rever e guardar uma descoberta",
+          "minutes": 2,
+          "instruction": "Que palavra musical ajuda você a explicar melhor suas escolhas agora? Você pode responder falando, pensando, desenhando ou no caderno."
+        }
+      ],
+      "durationMinutes": 16,
+      "teacherPrompt": "Experimente uma segunda versão mudando apenas uma escolha. O que mudou? Mostre um detalhe que sustente sua resposta.",
+      "selfAssessment": [
+        "Consigo explicar uma escolha que fiz.",
+        "Testei uma alternativa e percebi uma diferença.",
+        "Tenho uma pergunta para continuar investigando."
+      ]
     }
   ],
   "danca": [
@@ -326,7 +798,42 @@
         "adolescencia": "Compare direção, apoio e amplitude sem imitar um corpo ideal.",
         "adultos": "Observe um gesto da rotina e investigue como ele comunica presença e intenção.",
         "livre": "Explore um único gesto ou compare três pequenas variações."
-      }
+      },
+      "task": "Transforme um gesto cotidiano em três movimentos confortáveis.",
+      "journey": [
+        {
+          "title": "Olhar e perguntar",
+          "minutes": 2,
+          "instruction": "De quantas maneiras um pequeno gesto pode ocupar o espaço?"
+        },
+        {
+          "title": "Experimentar 1",
+          "minutes": 3,
+          "instruction": "Escolha um gesto cotidiano confortável, como acenar, olhar ou mover um dedo. Observe seu começo e seu final."
+        },
+        {
+          "title": "Experimentar 2",
+          "minutes": 3,
+          "instruction": "Repita-o com amplitude pequena e, se confortável, um pouco maior. Explore frente, lado ou uma direção imaginada."
+        },
+        {
+          "title": "Experimentar 3",
+          "minutes": 3,
+          "instruction": "Faça uma pausa e descreva qual parte se moveu, qual apoio ajudou e qual mudança você percebeu."
+        },
+        {
+          "title": "Rever e guardar uma descoberta",
+          "minutes": 2,
+          "instruction": "O que fez um gesto conhecido se tornar uma nova descoberta? Você pode responder falando, pensando, desenhando ou no caderno."
+        }
+      ],
+      "durationMinutes": 13,
+      "teacherPrompt": "Experimente uma segunda versão mudando apenas uma escolha. O que mudou? Mostre um detalhe que sustente sua resposta.",
+      "selfAssessment": [
+        "Consigo explicar uma escolha que fiz.",
+        "Testei uma alternativa e percebi uma diferença.",
+        "Tenho uma pergunta para continuar investigando."
+      ]
     },
     {
       "id": "conhecer",
@@ -351,7 +858,47 @@
         "adolescencia": "Compare o recorte do registro com os limites das informações disponíveis, evitando generalizações culturais.",
         "adultos": "Reflita sobre contexto, ocasião e autoria e sobre o que o documento não permite conhecer.",
         "livre": "Observe uma relação espacial ou investigue também os créditos e o contexto. "
-      }
+      },
+      "task": "Observe uma dança e desenhe o caminho de um gesto, sem copiar uma tradição como se fosse sua.",
+      "journey": [
+        {
+          "title": "Olhar e perguntar",
+          "minutes": 2,
+          "instruction": "Que relações você percebe entre pessoas, espaço e tempo no registro?"
+        },
+        {
+          "title": "Experimentar 1",
+          "minutes": 3,
+          "instruction": "Leia o título e os créditos do registro. Identifique comunidade, grupo ou autoria apenas quando informados."
+        },
+        {
+          "title": "Experimentar 2",
+          "minutes": 3,
+          "instruction": "Observe ou leia a descrição de uma passagem: há roda, fila, aproximação, pausas ou movimentos individuais?"
+        },
+        {
+          "title": "Experimentar 3",
+          "minutes": 3,
+          "instruction": "Separe uma característica observada de uma interpretação sua e de uma informação trazida pela fonte."
+        },
+        {
+          "title": "Experimentar 4",
+          "minutes": 3,
+          "instruction": "Crie uma pergunta sobre a prática e registre onde seria necessário pesquisar mais."
+        },
+        {
+          "title": "Rever e guardar uma descoberta",
+          "minutes": 2,
+          "instruction": "O que seria inadequado afirmar sobre toda uma comunidade a partir deste único registro? Você pode responder falando, pensando, desenhando ou no caderno."
+        }
+      ],
+      "durationMinutes": 16,
+      "teacherPrompt": "Experimente uma segunda versão mudando apenas uma escolha. O que mudou? Mostre um detalhe que sustente sua resposta.",
+      "selfAssessment": [
+        "Consigo explicar uma escolha que fiz.",
+        "Testei uma alternativa e percebi uma diferença.",
+        "Tenho uma pergunta para continuar investigando."
+      ]
     },
     {
       "id": "experimentar",
@@ -376,7 +923,47 @@
         "adolescencia": "Varie apenas um elemento por vez e registre o efeito de cada mudança.",
         "adultos": "Reinterprete um gesto habitual usando duração e pausa, sem aumentar esforço físico.",
         "livre": "Crie uma sequência de dois sinais ou explore quatro combinações."
-      }
+      },
+      "task": "Repita um gesto de modo lento, breve e com pausa.",
+      "journey": [
+        {
+          "title": "Olhar e perguntar",
+          "minutes": 2,
+          "instruction": "O mesmo gesto comunica algo diferente quando demora mais ou inclui uma pausa?"
+        },
+        {
+          "title": "Experimentar 1",
+          "minutes": 3,
+          "instruction": "Escolha um gesto pequeno e defina claramente onde começa e termina."
+        },
+        {
+          "title": "Experimentar 2",
+          "minutes": 3,
+          "instruction": "Experimente o gesto em duração curta e longa, mantendo conforto. Depois inclua uma pausa no meio."
+        },
+        {
+          "title": "Experimentar 3",
+          "minutes": 3,
+          "instruction": "Combine três sinais: mover, pausar e mudar de direção. Execute ou indique uma sequência."
+        },
+        {
+          "title": "Experimentar 4",
+          "minutes": 3,
+          "instruction": "Observe qual versão sugere leveza, esforço, hesitação ou outra qualidade, tratando isso como sua interpretação."
+        },
+        {
+          "title": "Rever e guardar uma descoberta",
+          "minutes": 2,
+          "instruction": "Qual mudança de tempo fez sua intenção ficar mais clara? Você pode responder falando, pensando, desenhando ou no caderno."
+        }
+      ],
+      "durationMinutes": 16,
+      "teacherPrompt": "Experimente uma segunda versão mudando apenas uma escolha. O que mudou? Mostre um detalhe que sustente sua resposta.",
+      "selfAssessment": [
+        "Consigo explicar uma escolha que fiz.",
+        "Testei uma alternativa e percebi uma diferença.",
+        "Tenho uma pergunta para continuar investigando."
+      ]
     },
     {
       "id": "criar",
@@ -401,7 +988,47 @@
         "adolescencia": "Defina uma regra de repetição e transforme um gesto no segundo aparecimento.",
         "adultos": "Crie uma sequência ligada a um tema pessoal e explique como revisou as transições.",
         "livre": "Componha só com duas partes do corpo ou descreva a sequência sem executá-la."
-      }
+      },
+      "task": "Combine três gestos numa dança curta, sentado ou em pé.",
+      "journey": [
+        {
+          "title": "Olhar e perguntar",
+          "minutes": 2,
+          "instruction": "O que você quer que alguém acompanhe na sua sequência?"
+        },
+        {
+          "title": "Experimentar 1",
+          "minutes": 3,
+          "instruction": "Escolha três gestos possíveis e dê um nome simples a cada um."
+        },
+        {
+          "title": "Experimentar 2",
+          "minutes": 3,
+          "instruction": "Organize os gestos em uma ordem com começo, uma repetição transformada e uma pausa final."
+        },
+        {
+          "title": "Experimentar 3",
+          "minutes": 3,
+          "instruction": "Experimente ou imagine a sequência. Revise uma transição para ficar mais confortável ou expressiva."
+        },
+        {
+          "title": "Experimentar 4",
+          "minutes": 3,
+          "instruction": "Registre com palavras, setas ou desenhos para poder retomar sem filmar."
+        },
+        {
+          "title": "Rever e guardar uma descoberta",
+          "minutes": 2,
+          "instruction": "Qual decisão faz a sequência ter uma identidade própria? Você pode responder falando, pensando, desenhando ou no caderno."
+        }
+      ],
+      "durationMinutes": 16,
+      "teacherPrompt": "Experimente uma segunda versão mudando apenas uma escolha. O que mudou? Mostre um detalhe que sustente sua resposta.",
+      "selfAssessment": [
+        "Consigo explicar uma escolha que fiz.",
+        "Testei uma alternativa e percebi uma diferença.",
+        "Tenho uma pergunta para continuar investigando."
+      ]
     },
     {
       "id": "conectar",
@@ -427,7 +1054,47 @@
         "adolescencia": "Mostre duas soluções para a mesma partitura visual e explique suas diferenças.",
         "adultos": "Relacione os trajetos desenhados a modos de ocupar um espaço cotidiano.",
         "livre": "Use uma linha como ponto de partida ou componha um pequeno roteiro visual."
-      }
+      },
+      "task": "Transforme três linhas desenhadas em uma sequência de movimentos.",
+      "journey": [
+        {
+          "title": "Olhar e perguntar",
+          "minutes": 2,
+          "instruction": "Uma linha pode sugerir um caminho de movimento sem dizer exatamente como o corpo deve ser?"
+        },
+        {
+          "title": "Experimentar 1",
+          "minutes": 3,
+          "instruction": "Desenhe três tipos de linha: curva, interrompida e espiral ou outra que preferir."
+        },
+        {
+          "title": "Experimentar 2",
+          "minutes": 3,
+          "instruction": "Escolha como cada linha poderia orientar um gesto, um objeto ou uma direção imaginada, evitando movimentos desconfortáveis."
+        },
+        {
+          "title": "Experimentar 3",
+          "minutes": 3,
+          "instruction": "Organize os desenhos em uma sequência e faça duas leituras diferentes."
+        },
+        {
+          "title": "Experimentar 4",
+          "minutes": 3,
+          "instruction": "Compare o que se manteve e o que se transformou entre desenho e dança."
+        },
+        {
+          "title": "Rever e guardar uma descoberta",
+          "minutes": 2,
+          "instruction": "Qual leitura surpreendeu você e por quê? Você pode responder falando, pensando, desenhando ou no caderno."
+        }
+      ],
+      "durationMinutes": 16,
+      "teacherPrompt": "Experimente uma segunda versão mudando apenas uma escolha. O que mudou? Mostre um detalhe que sustente sua resposta.",
+      "selfAssessment": [
+        "Consigo explicar uma escolha que fiz.",
+        "Testei uma alternativa e percebi uma diferença.",
+        "Tenho uma pergunta para continuar investigando."
+      ]
     },
     {
       "id": "compartilhar",
@@ -451,7 +1118,47 @@
         "adolescencia": "Mostre uma versão inicial e uma revista e explique uma decisão de acessibilidade.",
         "adultos": "Discuta como a possibilidade de escolher o modo de participação ampliou sua criação.",
         "livre": "Compartilhe uma única decisão ou organize uma apresentação completa do processo."
-      }
+      },
+      "task": "Apresente ou descreva sua sequência e revise uma escolha.",
+      "journey": [
+        {
+          "title": "Olhar e perguntar",
+          "minutes": 2,
+          "instruction": "Como alguém pode conhecer sua dança sem assistir a uma gravação sua?"
+        },
+        {
+          "title": "Experimentar 1",
+          "minutes": 3,
+          "instruction": "Escolha como apresentar: realizar, descrever, mostrar desenhos ou conversar sobre o processo."
+        },
+        {
+          "title": "Experimentar 2",
+          "minutes": 3,
+          "instruction": "Explique uma escolha de espaço, uma de tempo e uma adaptação de conforto."
+        },
+        {
+          "title": "Experimentar 3",
+          "minutes": 3,
+          "instruction": "Convide quem acompanha a descrever uma relação percebida e a fazer uma pergunta respeitosa; se estiver só, faça sua própria revisão."
+        },
+        {
+          "title": "Experimentar 4",
+          "minutes": 3,
+          "instruction": "Registre um limite que respeitou e uma possibilidade que descobriu."
+        },
+        {
+          "title": "Rever e guardar uma descoberta",
+          "minutes": 2,
+          "instruction": "Que ideia sobre o que conta como dança mudou no seu percurso? Você pode responder falando, pensando, desenhando ou no caderno."
+        }
+      ],
+      "durationMinutes": 16,
+      "teacherPrompt": "Experimente uma segunda versão mudando apenas uma escolha. O que mudou? Mostre um detalhe que sustente sua resposta.",
+      "selfAssessment": [
+        "Consigo explicar uma escolha que fiz.",
+        "Testei uma alternativa e percebi uma diferença.",
+        "Tenho uma pergunta para continuar investigando."
+      ]
     }
   ],
   "teatro": [
@@ -477,6 +1184,47 @@
         "adolescencia": "Crie duas versões da mesma ação mudando apenas a pausa ou a direção do olhar.",
         "adultos": "Observe uma ação cotidiana e transforme-a em cena sem reproduzir pessoas identificáveis.",
         "livre": "Explore só uma ação ou contraste duas versões."
+      },
+      "task": "Conte uma pequena situação com um gesto e uma pausa, sem precisar falar.",
+      "journey": [
+        {
+          "title": "Olhar e perguntar",
+          "minutes": 2,
+          "instruction": "O que você entende de uma cena antes de alguém dizer uma palavra?"
+        },
+        {
+          "title": "Experimentar 1",
+          "minutes": 3,
+          "instruction": "Escolha uma ação simples, como procurar algo ou esperar. Mostre-a com um gesto pequeno ou movendo um objeto."
+        },
+        {
+          "title": "Experimentar 2",
+          "minutes": 3,
+          "instruction": "Repita a ação incluindo uma pausa antes de agir. Compare o efeito."
+        },
+        {
+          "title": "Experimentar 3",
+          "minutes": 3,
+          "instruction": "Dê um título e descreva o que uma pessoa poderia inferir e o que continuaria em aberto."
+        },
+        {
+          "title": "Rever e guardar uma descoberta",
+          "minutes": 2,
+          "instruction": "Que detalhe ajudou a tornar a ação compreensível? Você pode responder falando, pensando, desenhando ou no caderno."
+        }
+      ],
+      "durationMinutes": 13,
+      "teacherPrompt": "Experimente uma segunda versão mudando apenas uma escolha. O que mudou? Mostre um detalhe que sustente sua resposta.",
+      "selfAssessment": [
+        "Consigo explicar uma escolha que fiz.",
+        "Testei uma alternativa e percebi uma diferença.",
+        "Tenho uma pergunta para continuar investigando."
+      ],
+      "pedagogy": {
+        "author": "Viola Spolin",
+        "title": "Jogos teatrais: o fichário de Viola Spolin",
+        "url": "https://www.santoandre.sp.gov.br/biblioteca/pesquisa/con_detalhe.asp?ID=91085",
+        "text": "Referência para estudar jogos teatrais. Nesta atividade original do ART, escolha um foco concreto, experimente a cena e converse sobre o que se tornou perceptível. Não é uma reprodução de uma ficha do livro."
       }
     },
     {
@@ -502,6 +1250,52 @@
         "adolescencia": "Relacione dois elementos de cena e explique quais limites o registro tem.",
         "adultos": "Investigue a colaboração na montagem e compare dados dos créditos com sua leitura pessoal.",
         "livre": "Explore um elemento ou mapeie funções diferentes documentadas na fonte."
+      },
+      "task": "Investigue como objetos, espaço e figurino ajudam a contar uma história.",
+      "journey": [
+        {
+          "title": "Olhar e perguntar",
+          "minutes": 2,
+          "instruction": "Quem e o que ajudam uma cena a acontecer além de quem aparece atuando?"
+        },
+        {
+          "title": "Experimentar 1",
+          "minutes": 3,
+          "instruction": "Consulte o registro e identifique título, autoria e profissionais apenas quando informados."
+        },
+        {
+          "title": "Experimentar 2",
+          "minutes": 3,
+          "instruction": "Observe cenário, objetos, roupas, disposição e iluminação que o material permita reconhecer."
+        },
+        {
+          "title": "Experimentar 3",
+          "minutes": 3,
+          "instruction": "Escolha um elemento e formule uma hipótese sobre sua função, distinguindo hipótese de informação documentada."
+        },
+        {
+          "title": "Experimentar 4",
+          "minutes": 3,
+          "instruction": "Anote uma pergunta que só outro documento ou o espetáculo completo poderia responder."
+        },
+        {
+          "title": "Rever e guardar uma descoberta",
+          "minutes": 2,
+          "instruction": "Que trabalho de criação você passou a perceber melhor? Você pode responder falando, pensando, desenhando ou no caderno."
+        }
+      ],
+      "durationMinutes": 16,
+      "teacherPrompt": "Experimente uma segunda versão mudando apenas uma escolha. O que mudou? Mostre um detalhe que sustente sua resposta.",
+      "selfAssessment": [
+        "Consigo explicar uma escolha que fiz.",
+        "Testei uma alternativa e percebi uma diferença.",
+        "Tenho uma pergunta para continuar investigando."
+      ],
+      "pedagogy": {
+        "author": "Viola Spolin",
+        "title": "Jogos teatrais: o fichário de Viola Spolin",
+        "url": "https://www.santoandre.sp.gov.br/biblioteca/pesquisa/con_detalhe.asp?ID=91085",
+        "text": "Referência para estudar jogos teatrais. Nesta atividade original do ART, escolha um foco concreto, experimente a cena e converse sobre o que se tornou perceptível. Não é uma reprodução de uma ficha do livro."
       }
     },
     {
@@ -526,6 +1320,52 @@
         "adolescencia": "Construa um conflito sem vilão fixo, em que os personagens tenham objetivos diferentes.",
         "adultos": "Explore um desacordo cotidiano por meio de objetos, preservando privacidade e evitando caricaturas.",
         "livre": "Crie uma interação de três ações ou desenvolva um pequeno diálogo. "
+      },
+      "task": "Transforme dois objetos seguros em personagens com um objetivo.",
+      "journey": [
+        {
+          "title": "Olhar e perguntar",
+          "minutes": 2,
+          "instruction": "Que personagem pode surgir da maneira de mover um objeto?"
+        },
+        {
+          "title": "Experimentar 1",
+          "minutes": 3,
+          "instruction": "Escolha um objeto e invente um objetivo simples para ele: alcançar, encontrar, esconder ou proteger."
+        },
+        {
+          "title": "Experimentar 2",
+          "minutes": 3,
+          "instruction": "Dê ao personagem um modo de mover-se e um sinal de atenção, respeitando os limites do material."
+        },
+        {
+          "title": "Experimentar 3",
+          "minutes": 3,
+          "instruction": "Apresente um segundo objeto que dificulta ou ajuda seu objetivo. Improvise três pequenas ações."
+        },
+        {
+          "title": "Experimentar 4",
+          "minutes": 3,
+          "instruction": "Repita a cena mudando o objetivo, sem precisar criar uma voz."
+        },
+        {
+          "title": "Rever e guardar uma descoberta",
+          "minutes": 2,
+          "instruction": "O que mudou no personagem quando seu objetivo mudou? Você pode responder falando, pensando, desenhando ou no caderno."
+        }
+      ],
+      "durationMinutes": 16,
+      "teacherPrompt": "Experimente uma segunda versão mudando apenas uma escolha. O que mudou? Mostre um detalhe que sustente sua resposta.",
+      "selfAssessment": [
+        "Consigo explicar uma escolha que fiz.",
+        "Testei uma alternativa e percebi uma diferença.",
+        "Tenho uma pergunta para continuar investigando."
+      ],
+      "pedagogy": {
+        "author": "Viola Spolin",
+        "title": "Jogos teatrais: o fichário de Viola Spolin",
+        "url": "https://www.santoandre.sp.gov.br/biblioteca/pesquisa/con_detalhe.asp?ID=91085",
+        "text": "Referência para estudar jogos teatrais. Nesta atividade original do ART, escolha um foco concreto, experimente a cena e converse sobre o que se tornou perceptível. Não é uma reprodução de uma ficha do livro."
       }
     },
     {
@@ -551,6 +1391,52 @@
         "adolescencia": "Escreva duas soluções para o conflito e compare o efeito de cada final.",
         "adultos": "Construa uma cena sobre uma escolha de cuidado ou convivência, sem expor experiências privadas.",
         "livre": "Conte a história em três frases ou desenvolva uma cena de poucos minutos."
+      },
+      "task": "Crie uma cena curta com um problema e uma escolha que muda a situação.",
+      "journey": [
+        {
+          "title": "Olhar e perguntar",
+          "minutes": 2,
+          "instruction": "Qual escolha faz a situação mudar?"
+        },
+        {
+          "title": "Experimentar 1",
+          "minutes": 3,
+          "instruction": "Defina dois personagens inventados, um lugar e algo que ambos querem resolver."
+        },
+        {
+          "title": "Experimentar 2",
+          "minutes": 3,
+          "instruction": "Escreva ou desenhe três momentos: situação inicial, dificuldade e escolha que transforma a situação."
+        },
+        {
+          "title": "Experimentar 3",
+          "minutes": 3,
+          "instruction": "Inclua uma ação sem fala e uma pausa importante. Leia, conte ou encene a sequência."
+        },
+        {
+          "title": "Experimentar 4",
+          "minutes": 3,
+          "instruction": "Revise um momento para que a mudança fique mais compreensível, sem explicar tudo em uma fala."
+        },
+        {
+          "title": "Rever e guardar uma descoberta",
+          "minutes": 2,
+          "instruction": "Sua transformação acontece por uma ação ou só por uma explicação? O que você prefere? Você pode responder falando, pensando, desenhando ou no caderno."
+        }
+      ],
+      "durationMinutes": 16,
+      "teacherPrompt": "Experimente uma segunda versão mudando apenas uma escolha. O que mudou? Mostre um detalhe que sustente sua resposta.",
+      "selfAssessment": [
+        "Consigo explicar uma escolha que fiz.",
+        "Testei uma alternativa e percebi uma diferença.",
+        "Tenho uma pergunta para continuar investigando."
+      ],
+      "pedagogy": {
+        "author": "Viola Spolin",
+        "title": "Jogos teatrais: o fichário de Viola Spolin",
+        "url": "https://www.santoandre.sp.gov.br/biblioteca/pesquisa/con_detalhe.asp?ID=91085",
+        "text": "Referência para estudar jogos teatrais. Nesta atividade original do ART, escolha um foco concreto, experimente a cena e converse sobre o que se tornou perceptível. Não é uma reprodução de uma ficha do livro."
       }
     },
     {
@@ -576,6 +1462,52 @@
         "adolescencia": "Crie duas atmosferas para o mesmo trecho mudando um elemento por vez.",
         "adultos": "Planeje uma montagem mínima com materiais disponíveis e justifique escolhas de reutilização.",
         "livre": "Projete apenas o espaço ou combine também figurino e som."
+      },
+      "task": "Faça uma maquete ou desenho de cena com três elementos e uma atmosfera sonora.",
+      "journey": [
+        {
+          "title": "Olhar e perguntar",
+          "minutes": 2,
+          "instruction": "A mesma fala parece acontecer em outro lugar quando os elementos ao redor mudam?"
+        },
+        {
+          "title": "Experimentar 1",
+          "minutes": 3,
+          "instruction": "Escolha um trecho de sua cena e desenhe um espaço com apenas três elementos."
+        },
+        {
+          "title": "Experimentar 2",
+          "minutes": 3,
+          "instruction": "Planeje uma peça de figurino ou um sinal visual que ajude a identificar uma função, sem usar caricaturas culturais."
+        },
+        {
+          "title": "Experimentar 3",
+          "minutes": 3,
+          "instruction": "Inclua um som suave, um silêncio ou uma legenda de atmosfera. Compare a cena com e sem esse elemento."
+        },
+        {
+          "title": "Experimentar 4",
+          "minutes": 3,
+          "instruction": "Reorganize uma escolha para favorecer clareza e circulação segura; represente tudo em uma maquete ou desenho se preferir."
+        },
+        {
+          "title": "Rever e guardar uma descoberta",
+          "minutes": 2,
+          "instruction": "Qual elemento ajudou mais a situar a cena sem precisar de explicações? Você pode responder falando, pensando, desenhando ou no caderno."
+        }
+      ],
+      "durationMinutes": 16,
+      "teacherPrompt": "Experimente uma segunda versão mudando apenas uma escolha. O que mudou? Mostre um detalhe que sustente sua resposta.",
+      "selfAssessment": [
+        "Consigo explicar uma escolha que fiz.",
+        "Testei uma alternativa e percebi uma diferença.",
+        "Tenho uma pergunta para continuar investigando."
+      ],
+      "pedagogy": {
+        "author": "Viola Spolin",
+        "title": "Jogos teatrais: o fichário de Viola Spolin",
+        "url": "https://www.santoandre.sp.gov.br/biblioteca/pesquisa/con_detalhe.asp?ID=91085",
+        "text": "Referência para estudar jogos teatrais. Nesta atividade original do ART, escolha um foco concreto, experimente a cena e converse sobre o que se tornou perceptível. Não é uma reprodução de uma ficha do livro."
       }
     },
     {
@@ -600,6 +1532,52 @@
         "adolescencia": "Use exemplos da cena para justificar uma sugestão sem transformar gosto pessoal em regra.",
         "adultos": "Reflita sobre colaboração, autoria e direito de recusar exposição pública.",
         "livre": "Apresente só um trecho ou compartilhe o processo inteiro."
+      },
+      "task": "Reapresente ou releia uma cena e teste uma sugestão de melhoria.",
+      "journey": [
+        {
+          "title": "Olhar e perguntar",
+          "minutes": 2,
+          "instruction": "Como saber o que a cena comunicou sem julgar quem apresentou?"
+        },
+        {
+          "title": "Experimentar 1",
+          "minutes": 3,
+          "instruction": "Escolha um formato de apresentação confortável: leitura, objetos, descrição ou atuação."
+        },
+        {
+          "title": "Experimentar 2",
+          "minutes": 3,
+          "instruction": "Diga qual aspecto gostaria que fosse observado: conflito, espaço, pausa ou transformação."
+        },
+        {
+          "title": "Experimentar 3",
+          "minutes": 3,
+          "instruction": "Peça um retorno com 'entendi que...', 'fiquei curioso sobre...' e 'uma possibilidade seria...'. Se estiver só, releia usando essas frases."
+        },
+        {
+          "title": "Experimentar 4",
+          "minutes": 3,
+          "instruction": "Escolha uma sugestão para testar e explique por que a acolheu ou decidiu manter sua escolha."
+        },
+        {
+          "title": "Rever e guardar uma descoberta",
+          "minutes": 2,
+          "instruction": "Que revisão melhorou sua cena e que escolha você decidiu preservar? Você pode responder falando, pensando, desenhando ou no caderno."
+        }
+      ],
+      "durationMinutes": 16,
+      "teacherPrompt": "Experimente uma segunda versão mudando apenas uma escolha. O que mudou? Mostre um detalhe que sustente sua resposta.",
+      "selfAssessment": [
+        "Consigo explicar uma escolha que fiz.",
+        "Testei uma alternativa e percebi uma diferença.",
+        "Tenho uma pergunta para continuar investigando."
+      ],
+      "pedagogy": {
+        "author": "Viola Spolin",
+        "title": "Jogos teatrais: o fichário de Viola Spolin",
+        "url": "https://www.santoandre.sp.gov.br/biblioteca/pesquisa/con_detalhe.asp?ID=91085",
+        "text": "Referência para estudar jogos teatrais. Nesta atividade original do ART, escolha um foco concreto, experimente a cena e converse sobre o que se tornou perceptível. Não é uma reprodução de uma ficha do livro."
       }
     }
   ],
@@ -627,7 +1605,42 @@
         "adolescencia": "Crie versões contrastantes da mesma palavra e explique as regras da tradução.",
         "adultos": "Relacione um tema da sua experiência a formas visuais, temporais e narrativas.",
         "livre": "Explore duas linguagens ou faça quatro pequenas versões."
-      }
+      },
+      "task": "Traduza uma palavra em desenho, som ou sinal e gesto.",
+      "journey": [
+        {
+          "title": "Olhar e perguntar",
+          "minutes": 2,
+          "instruction": "O que permanece e o que muda quando uma ideia troca de linguagem?"
+        },
+        {
+          "title": "Experimentar 1",
+          "minutes": 3,
+          "instruction": "Escolha uma palavra aberta, como encontro, caminho ou transformação."
+        },
+        {
+          "title": "Experimentar 2",
+          "minutes": 3,
+          "instruction": "Represente-a com uma linha, uma sequência de sons ou sinais e um pequeno gesto imaginado ou realizado."
+        },
+        {
+          "title": "Experimentar 3",
+          "minutes": 3,
+          "instruction": "Compare as versões e escreva uma relação que você decidiu criar entre elas."
+        },
+        {
+          "title": "Rever e guardar uma descoberta",
+          "minutes": 2,
+          "instruction": "Qual linguagem revelou uma possibilidade que você ainda não tinha pensado? Você pode responder falando, pensando, desenhando ou no caderno."
+        }
+      ],
+      "durationMinutes": 13,
+      "teacherPrompt": "Experimente uma segunda versão mudando apenas uma escolha. O que mudou? Mostre um detalhe que sustente sua resposta.",
+      "selfAssessment": [
+        "Consigo explicar uma escolha que fiz.",
+        "Testei uma alternativa e percebi uma diferença.",
+        "Tenho uma pergunta para continuar investigando."
+      ]
     },
     {
       "id": "conhecer",
@@ -652,7 +1665,47 @@
         "adolescencia": "Separe o dado institucional da associação pessoal e discuta os riscos de generalizar uma cultura.",
         "adultos": "Investigue como modos de circulação e apresentação influenciam sua leitura das referências.",
         "livre": "Compare um detalhe ou organize uma tabela de relações e limites."
-      }
+      },
+      "task": "Compare duas referências por uma característica que consiga observar.",
+      "journey": [
+        {
+          "title": "Olhar e perguntar",
+          "minutes": 2,
+          "instruction": "Que aproximação você pode propor sem dizer que as obras têm o mesmo significado?"
+        },
+        {
+          "title": "Experimentar 1",
+          "minutes": 3,
+          "instruction": "Consulte os créditos de duas referências e registre o que a instituição informa sobre cada uma."
+        },
+        {
+          "title": "Experimentar 2",
+          "minutes": 3,
+          "instruction": "Escolha uma característica comparável, como repetição, contraste, grupo ou ocupação do espaço."
+        },
+        {
+          "title": "Experimentar 3",
+          "minutes": 3,
+          "instruction": "Escreva uma semelhança observável e uma diferença. Evite atribuir um sentido cultural que a fonte não documenta."
+        },
+        {
+          "title": "Experimentar 4",
+          "minutes": 3,
+          "instruction": "Formule uma pergunta sobre a produção ou a comunidade e identifique que fonte oficial seria necessária para aprofundá-la."
+        },
+        {
+          "title": "Rever e guardar uma descoberta",
+          "minutes": 2,
+          "instruction": "O que sua comparação permite perceber e o que ela não permite concluir? Você pode responder falando, pensando, desenhando ou no caderno."
+        }
+      ],
+      "durationMinutes": 16,
+      "teacherPrompt": "Experimente uma segunda versão mudando apenas uma escolha. O que mudou? Mostre um detalhe que sustente sua resposta.",
+      "selfAssessment": [
+        "Consigo explicar uma escolha que fiz.",
+        "Testei uma alternativa e percebi uma diferença.",
+        "Tenho uma pergunta para continuar investigando."
+      ]
     },
     {
       "id": "experimentar",
@@ -678,7 +1731,47 @@
         "adolescencia": "Defina uma regra de tradução e teste em qual momento ela precisa ser modificada.",
         "adultos": "Explore como diferentes suportes mudam a intenção e documente as escolhas.",
         "livre": "Faça uma única passagem entre duas linguagens ou complete o ciclo."
-      }
+      },
+      "task": "Transforme um desenho em ritmo e gesto e depois faça outro desenho.",
+      "journey": [
+        {
+          "title": "Olhar e perguntar",
+          "minutes": 2,
+          "instruction": "Como transformar uma sequência de linhas em tempo sem simplesmente copiá-la?"
+        },
+        {
+          "title": "Experimentar 1",
+          "minutes": 3,
+          "instruction": "Escolha três elementos de um desenho seu e atribua a cada um um sinal, som suave ou pausa."
+        },
+        {
+          "title": "Experimentar 2",
+          "minutes": 3,
+          "instruction": "Transforme a sequência em uma ação de objetos ou em gestos acessíveis."
+        },
+        {
+          "title": "Experimentar 3",
+          "minutes": 3,
+          "instruction": "Faça o caminho inverso: desenhe uma nova imagem a partir da sequência, sem olhar a primeira."
+        },
+        {
+          "title": "Experimentar 4",
+          "minutes": 3,
+          "instruction": "Compare o início e o final e registre uma transformação que gostaria de explorar."
+        },
+        {
+          "title": "Rever e guardar uma descoberta",
+          "minutes": 2,
+          "instruction": "O que se perdeu na tradução e o que apareceu de novo? Você pode responder falando, pensando, desenhando ou no caderno."
+        }
+      ],
+      "durationMinutes": 16,
+      "teacherPrompt": "Experimente uma segunda versão mudando apenas uma escolha. O que mudou? Mostre um detalhe que sustente sua resposta.",
+      "selfAssessment": [
+        "Consigo explicar uma escolha que fiz.",
+        "Testei uma alternativa e percebi uma diferença.",
+        "Tenho uma pergunta para continuar investigando."
+      ]
     },
     {
       "id": "criar",
@@ -703,7 +1796,47 @@
         "adolescencia": "Escolha um tema e use duas linguagens com funções diferentes, explicando essa decisão.",
         "adultos": "Desenvolva um projeto sobre memória, território ou convivência, respeitando privacidade e créditos.",
         "livre": "Faça uma peça de pequena escala ou amplie o protótipo em etapas."
-      }
+      },
+      "task": "Faça um pequeno protótipo que combine duas linguagens artísticas.",
+      "journey": [
+        {
+          "title": "Olhar e perguntar",
+          "minutes": 2,
+          "instruction": "Por que seu projeto precisa dessas duas linguagens?"
+        },
+        {
+          "title": "Experimentar 1",
+          "minutes": 3,
+          "instruction": "Defina um tema próximo e uma pergunta que seu trabalho deseja explorar, sem precisar revelar algo íntimo."
+        },
+        {
+          "title": "Experimentar 2",
+          "minutes": 3,
+          "instruction": "Escolha duas linguagens e diga qual função cada uma terá. Liste os materiais já disponíveis e uma alternativa acessível."
+        },
+        {
+          "title": "Experimentar 3",
+          "minutes": 3,
+          "instruction": "Faça um protótipo pequeno com começo, transformação e encerramento."
+        },
+        {
+          "title": "Experimentar 4",
+          "minutes": 3,
+          "instruction": "Experimente e revise uma relação entre as linguagens: o som ajuda a perceber a imagem? O espaço ajuda a acompanhar a ação?"
+        },
+        {
+          "title": "Rever e guardar uma descoberta",
+          "minutes": 2,
+          "instruction": "As linguagens colaboram com a ideia ou apenas aparecem lado a lado? Você pode responder falando, pensando, desenhando ou no caderno."
+        }
+      ],
+      "durationMinutes": 16,
+      "teacherPrompt": "Experimente uma segunda versão mudando apenas uma escolha. O que mudou? Mostre um detalhe que sustente sua resposta.",
+      "selfAssessment": [
+        "Consigo explicar uma escolha que fiz.",
+        "Testei uma alternativa e percebi uma diferença.",
+        "Tenho uma pergunta para continuar investigando."
+      ]
     },
     {
       "id": "conectar",
@@ -728,7 +1861,47 @@
         "adolescencia": "Revise uma informação transmitida só por som ou cor e crie uma segunda forma de apresentá-la.",
         "adultos": "Elabore uma descrição e um conjunto de créditos que ajudem o público a compreender e pesquisar.",
         "livre": "Melhore um trecho ou revise todas as etapas do projeto."
-      }
+      },
+      "task": "Crie uma descrição e uma alternativa de acesso para seu projeto.",
+      "journey": [
+        {
+          "title": "Olhar e perguntar",
+          "minutes": 2,
+          "instruction": "Como alguém pode acompanhar sua ideia sem ver, ouvir ou se mover da mesma maneira que você?"
+        },
+        {
+          "title": "Experimentar 1",
+          "minutes": 3,
+          "instruction": "Escolha um trecho essencial e escreva uma descrição clara do que acontece e por que ele importa."
+        },
+        {
+          "title": "Experimentar 2",
+          "minutes": 3,
+          "instruction": "Ofereça uma alternativa para informações que dependem apenas de cor, som ou movimento. Se houver fala, prepare um texto correspondente."
+        },
+        {
+          "title": "Experimentar 3",
+          "minutes": 3,
+          "instruction": "Revise os créditos: identifique produções próprias, referências consultadas e materiais de terceiros que não podem ser reproduzidos."
+        },
+        {
+          "title": "Experimentar 4",
+          "minutes": 3,
+          "instruction": "Peça a alguém para acompanhar o projeto usando a alternativa, ou faça uma leitura crítica sem afirmar que ela substitui testes com diferentes públicos."
+        },
+        {
+          "title": "Rever e guardar uma descoberta",
+          "minutes": 2,
+          "instruction": "Que mudança de apresentação melhorou a compreensão para mais pessoas? Você pode responder falando, pensando, desenhando ou no caderno."
+        }
+      ],
+      "durationMinutes": 16,
+      "teacherPrompt": "Experimente uma segunda versão mudando apenas uma escolha. O que mudou? Mostre um detalhe que sustente sua resposta.",
+      "selfAssessment": [
+        "Consigo explicar uma escolha que fiz.",
+        "Testei uma alternativa e percebi uma diferença.",
+        "Tenho uma pergunta para continuar investigando."
+      ]
     },
     {
       "id": "compartilhar",
@@ -752,7 +1925,47 @@
         "adolescencia": "Compare protótipo e versão final com exemplos concretos de revisão.",
         "adultos": "Conecte sua descoberta a uma prática artística que deseja continuar na rotina.",
         "livre": "Compartilhe uma descoberta ou organize uma pequena mostra comentada."
-      }
+      },
+      "task": "Organize uma mostra curta com créditos, decisões e uma revisão.",
+      "journey": [
+        {
+          "title": "Olhar e perguntar",
+          "minutes": 2,
+          "instruction": "Que evidência mostra como sua maneira de criar se transformou?"
+        },
+        {
+          "title": "Experimentar 1",
+          "minutes": 3,
+          "instruction": "Escolha como compartilhar e organize uma apresentação com tema, duas decisões de linguagem e uma revisão feita."
+        },
+        {
+          "title": "Experimentar 2",
+          "minutes": 3,
+          "instruction": "Inclua créditos e explique como alguém pode acessar a versão alternativa do trabalho."
+        },
+        {
+          "title": "Experimentar 3",
+          "minutes": 3,
+          "instruction": "Solicite retorno sobre a intenção e a relação entre linguagens, ou use as mesmas perguntas em autoavaliação."
+        },
+        {
+          "title": "Experimentar 4",
+          "minutes": 3,
+          "instruction": "Complete: 'antes eu pensava...', 'agora consigo...', 'ainda quero investigar...'. Escolha um próximo encontro para retomar."
+        },
+        {
+          "title": "Rever e guardar uma descoberta",
+          "minutes": 2,
+          "instruction": "Qual descoberta você levaria para uma nova criação em outra linguagem? Você pode responder falando, pensando, desenhando ou no caderno."
+        }
+      ],
+      "durationMinutes": 16,
+      "teacherPrompt": "Experimente uma segunda versão mudando apenas uma escolha. O que mudou? Mostre um detalhe que sustente sua resposta.",
+      "selfAssessment": [
+        "Consigo explicar uma escolha que fiz.",
+        "Testei uma alternativa e percebi uma diferença.",
+        "Tenho uma pergunta para continuar investigando."
+      ]
     }
   ]
 }

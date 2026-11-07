@@ -1,0 +1,37 @@
+{
+  "reference": "Personagem Pequeno Príncipe do Callguid, indicado pelo autor do projeto.",
+  "generation": "Sprites temáticos criados com a ferramenta image_gen a partir da referência; 64 quadros por GIF. Não são obras de museu.",
+  "playback": "20 segundos, reprodução única; nova reprodução pelo controle do ateliê.",
+  "animations": [
+    {
+      "area": "visuais",
+      "frames": 64,
+      "durationMs": 20000,
+      "bytes": 3496092
+    },
+    {
+      "area": "musica",
+      "frames": 64,
+      "durationMs": 20000,
+      "bytes": 4104865
+    },
+    {
+      "area": "danca",
+      "frames": 64,
+      "durationMs": 20000,
+      "bytes": 3046964
+    },
+    {
+      "area": "teatro",
+      "frames": 64,
+      "durationMs": 20000,
+      "bytes": 2950022
+    },
+    {
+      "area": "integradas",
+      "frames": 64,
+      "durationMs": 20000,
+      "bytes": 3354231
+    }
+  ]
+}

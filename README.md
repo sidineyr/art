@@ -41,6 +41,16 @@ Cada ateliê oferece seis encontros:
 
 Em cada encontro, o estudante encontra um objetivo, uma pergunta de observação, referências, uma proposta prática, possibilidades de adaptação e uma pergunta para reflexão. Os materiais e os tempos são sugestões: o percurso pode acontecer na tela ou fora dela, no ritmo de cada pessoa.
 
+## Um professor por perto, uma experiência para explorar
+
+Cada encontro apresenta **“Nesta aula vamos usar”**, uma tarefa realizável, etapas de prática e perguntas para rever as escolhas. Os planos sugerem de **13 a 19 minutos**, com liberdade para pausar e adaptar. Em música, por exemplo, podemos marcar ritmos suaves na mesa, com palmas, dedos ou sinais visuais.
+
+As imagens incorporadas podem ser ampliadas e movidas com controles, teclado ou arraste. Uma galeria espacial original do ART oferece também vista sem 3D. Recursos oficiais abrem caminhos para vídeos, passeios 360° e a escultura digitalizada do Smithsonian, sempre com contexto e fonte. Conteúdos externos dependem da disponibilidade das instituições.
+
+Cada ateliê tem uma apresentação temática com o personagem Pequeno Príncipe do Callguid: **64 quadros em 20 segundos**, legendas, leitura completa, opção de pular e nova reprodução. A preferência por redução de movimento apresenta a imagem estática até a pessoa escolher assistir. As ilustrações do guia foram geradas para o projeto e não são obras do acervo.
+
+No teatro, dialogamos com **Viola Spolin, Jogos teatrais: o fichário de Viola Spolin**, em atividades originais de foco, improvisação e reflexão, sem reproduzir as fichas do livro. A referência está registrada no catálogo da Biblioteca Municipal de Santo André.
+
 ## Para diferentes públicos e formas de participação
 
 Os modos **Infância, Adolescência, Público adulto e Exploração livre** ajustam as orientações de mediação. Eles não funcionam como séries escolares rígidas. Na infância, as propostas orientam o acompanhamento de um adulto e priorizam a exploração e o brincar.
@@ -70,7 +80,7 @@ As referências vêm de **museus e instituições públicas de diferentes paíse
 
 As fichas informam autoria, data, instituição, contexto, idioma, condições de acesso e créditos. Imagem, escultura, áudio, vídeo, artigo e partitura são apresentados conforme o que a fonte realmente disponibiliza. Perguntas e propostas originais do ART são diferenciadas dos dados documentados sobre as obras.
 
-Somente as imagens identificadas como domínio público ou CC0 foram incorporadas. Os demais recursos são consultados na instituição de origem. **Links externos abrem em outra aba**, mantendo o percurso do ART disponível.
+Somente as imagens de acervo identificadas como domínio público ou CC0 foram incorporadas. Os demais recursos são consultados na instituição de origem. **Links externos abrem em outra aba**, mantendo o percurso do ART disponível.
 
 As marcas no rodapé identificam as fontes consultadas. Os créditos podem ser conferidos em [resources.json](resources.json) e nas [fontes dos ícones institucionais](assets/institutions/SOURCES.json).
 

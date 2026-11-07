@@ -1,0 +1,116 @@
+rules_version = '2';
+// Prototype rules: reviewed and tested before release.
+// pending/{uuid}: lesson, kind, body, createdAt(timestamp), authorUid(string).
+// published/{uuid}: lesson, kind, body, createdAt, approvedAt. No author identifier.
+// receipts/{uuid}: authorUid, createdAt. Private idempotency receipt without text.
+// limits/{uid}: lastSentAt, entryId. Private one-minute cooldown.
+// moderators/{uid}: enabled(bool). Only privileged project owners create roles.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() { return request.auth != null; }
+    function commenter() { return signedIn() && request.auth.token.firebase.sign_in_provider == 'password'; }
+    function owner(uid) { return signedIn() && request.auth.uid == uid; }
+    function moderator() {
+      return signedIn() && exists(/databases/$(database)/documents/moderators/$(request.auth.uid))
+        && get(/databases/$(database)/documents/moderators/$(request.auth.uid)).data.enabled == true;
+    }
+    function validId(id) { return id.matches('^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$'); }
+    function validLesson(lesson) {
+      return lesson is string && lesson.size() <= 40
+        && lesson.matches('^(visuais|musica|danca|teatro|integradas)-(perceber|conhecer|experimentar|criar|conectar|compartilhar)$');
+    }
+    function validContent(data) {
+      return validLesson(data.lesson) && data.kind in ['anotacao','contribuicao','critica','elogio']
+        && data.body is string && data.body.size() > 0 && data.body.size() <= 1200 && data.createdAt is timestamp;
+    }
+    function validPending(data) {
+      return data.keys().hasAll(['lesson','kind','body','createdAt','authorUid'])
+        && data.keys().hasOnly(['lesson','kind','body','createdAt','authorUid']) && validContent(data)
+        && data.authorUid is string && data.authorUid.size() > 0 && data.authorUid.size() <= 128;
+    }
+    function validPublished(data) {
+      return data.keys().hasAll(['lesson','kind','body','createdAt','approvedAt'])
+        && data.keys().hasOnly(['lesson','kind','body','createdAt','approvedAt'])
+        && validContent(data) && data.approvedAt is timestamp;
+    }
+    function validReceipt(data) {
+      return data.keys().hasAll(['authorUid','createdAt']) && data.keys().hasOnly(['authorUid','createdAt'])
+        && data.authorUid is string && data.authorUid.size() > 0 && data.authorUid.size() <= 128 && data.createdAt is timestamp;
+    }
+    function validLimit(data) {
+      return data.keys().hasAll(['lastSentAt','entryId']) && data.keys().hasOnly(['lastSentAt','entryId'])
+        && data.lastSentAt is timestamp && data.entryId is string && validId(data.entryId);
+    }
+    function newSubmission(id) {
+      return !exists(/databases/$(database)/documents/receipts/$(id))
+        && getAfter(/databases/$(database)/documents/receipts/$(id)).data.authorUid == request.auth.uid
+        && getAfter(/databases/$(database)/documents/receipts/$(id)).data.createdAt == request.time;
+    }
+    function pairedPending(id) {
+      let pending = getAfter(/databases/$(database)/documents/pending/$(id)).data;
+      return validPending(pending) && pending.authorUid == request.auth.uid && pending.createdAt == request.time;
+    }
+    function pairedLimit(id) {
+      let counter = getAfter(/databases/$(database)/documents/limits/$(request.auth.uid)).data;
+      return validLimit(counter) && counter.entryId == id && counter.lastSentAt == request.time;
+    }
+    match /pending/{id} {
+      allow get: if moderator() || (signedIn() && resource.data.authorUid == request.auth.uid);
+      allow list: if request.query.limit != null && request.query.limit <= 100 && (moderator() || (commenter() && resource.data.authorUid == request.auth.uid));
+      allow create: if commenter() && validId(id) && validPending(request.resource.data)
+        && request.resource.data.authorUid == request.auth.uid && request.resource.data.createdAt == request.time
+        && newSubmission(id) && pairedLimit(id);
+      allow update: if false;
+      allow delete: if moderator();
+    }
+    match /receipts/{id} {
+      // Missing receipts can be read by an authenticated visitor to start a transaction.
+      allow get: if signedIn() && (!exists(/databases/$(database)/documents/receipts/$(id)) || resource.data.authorUid == request.auth.uid);
+      allow list: if commenter() && resource.data.authorUid == request.auth.uid && request.query.limit != null && request.query.limit <= 20;
+      allow create: if commenter() && validId(id) && validReceipt(request.resource.data)
+        && request.resource.data.authorUid == request.auth.uid && request.resource.data.createdAt == request.time
+        && pairedPending(id) && pairedLimit(id);
+      allow update, delete: if false;
+    }
+    match /limits/{uid} {
+      allow get: if owner(uid);
+      allow list: if false;
+      allow create: if commenter() && owner(uid) && validLimit(request.resource.data) && request.resource.data.lastSentAt == request.time
+        && newSubmission(request.resource.data.entryId) && pairedPending(request.resource.data.entryId);
+      allow update: if commenter() && owner(uid) && validLimit(request.resource.data) && request.resource.data.lastSentAt == request.time
+        && resource.data.lastSentAt + duration.value(60,'s') <= request.time
+        && newSubmission(request.resource.data.entryId) && pairedPending(request.resource.data.entryId);
+      allow delete: if false;
+    }
+    match /published/{id} {
+      // Public approved contributions explicitly requested by the user. No PII stored here.
+      allow get: if true;
+      allow list: if request.query.limit != null && request.query.limit <= 100;
+      allow create: if moderator() && validId(id) && validPublished(request.resource.data)
+        && request.resource.data.approvedAt == request.time && exists(/databases/$(database)/documents/pending/$(id))
+        && request.resource.data.lesson == get(/databases/$(database)/documents/pending/$(id)).data.lesson
+        && request.resource.data.kind == get(/databases/$(database)/documents/pending/$(id)).data.kind
+        && request.resource.data.body == get(/databases/$(database)/documents/pending/$(id)).data.body
+        && request.resource.data.createdAt == get(/databases/$(database)/documents/pending/$(id)).data.createdAt;
+      allow update: if false;
+      allow delete: if moderator();
+    }
+    function validNote(data) {
+      return data.keys().hasAll(['question','answer','updatedAt']) && data.keys().hasOnly(['question','answer','updatedAt'])
+        && data.question is string && data.question.size() <= 1000
+        && data.answer is string && data.answer.size() <= 5000 && data.updatedAt is timestamp;
+    }
+    match /users/{uid}/notebook/{lessonId} {
+      allow get: if commenter() && owner(uid);
+      allow list: if commenter() && owner(uid) && request.query.limit != null && request.query.limit <= 30;
+      allow create, update: if commenter() && owner(uid) && validLesson(lessonId)
+        && validNote(request.resource.data) && request.resource.data.updatedAt == request.time;
+      allow delete: if commenter() && owner(uid);
+    }
+    match /moderators/{uid} {
+      allow get: if owner(uid);
+      allow list, write: if false;
+    }
+    match /{document=**} { allow read, write: if false; }
+  }
+}

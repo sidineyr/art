@@ -1,0 +1,77 @@
+{
+  "purpose": "Marcas e ícones institucionais originais para identificar links às fontes consultadas. Sem parceria ou patrocínio declarado; marcas pertencem às instituições.",
+  "institutions": [
+    {
+      "id": "cleveland",
+      "name": "Cleveland Museum of Art",
+      "url": "https://www.clevelandart.org/",
+      "icon": "assets/institutions/cleveland.svg",
+      "source": "https://www.clevelandart.org/images/favicon-196x196.svg"
+    },
+    {
+      "id": "met",
+      "name": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/",
+      "icon": "assets/institutions/met.svg",
+      "source": "https://www.metmuseum.org/",
+      "method": "SVG original da marca visível no cabeçalho, obtido por acesso normal à página oficial no navegador, sem alterar a geometria."
+    },
+    {
+      "id": "masp",
+      "name": "MASP",
+      "url": "https://masp.org.br/",
+      "icon": "assets/institutions/masp.png",
+      "source": "https://cdn.prod.website-files.com/67338a991d8aa120d15ef8c5/67c9bfc15b1f74703b3d661d_Favicon.png"
+    },
+    {
+      "id": "rodin",
+      "name": "Musée Rodin",
+      "url": "https://www.musee-rodin.fr/",
+      "icon": "assets/institutions/rodin.ico",
+      "source": "https://www.musee-rodin.fr/themes/custom_theme/favicon.ico"
+    },
+    {
+      "id": "goeldi",
+      "name": "Museu Paraense Emílio Goeldi",
+      "url": "https://www.gov.br/museugoeldi/",
+      "icon": "assets/institutions/goeldi.ico",
+      "source": "https://www.gov.br/museugoeldi/favicon.ico"
+    },
+    {
+      "id": "camara",
+      "name": "Câmara dos Deputados",
+      "url": "https://www.camara.leg.br/",
+      "icon": "assets/institutions/camara.png",
+      "source": "https://www.camara.leg.br/tema/apple-touch-icon.png"
+    },
+    {
+      "id": "va",
+      "name": "Victoria and Albert Museum",
+      "url": "https://www.vam.ac.uk/",
+      "icon": "assets/institutions/va.png",
+      "source": "https://www.vam.ac.uk/assets/favicon/apple-touch-icon-57x57-5a3088679dcbcba5603191dc73f2543e5bb152ec7efe5e62931a4b180a63f8a0.png"
+    },
+    {
+      "id": "iphan",
+      "name": "Iphan",
+      "url": "https://www.gov.br/iphan/",
+      "icon": "assets/institutions/iphan.ico",
+      "source": "https://www.gov.br/iphan/favicon.ico"
+    },
+    {
+      "id": "pinacoteca",
+      "name": "Pinacoteca de São Paulo",
+      "url": "https://pinacoteca.org.br/",
+      "icon": "assets/institutions/pinacoteca.png",
+      "source": "https://pinacoteca.org.br/apple-touch-icon.png?v=20231130"
+    },
+    {
+      "id": "loc",
+      "name": "Library of Congress",
+      "url": "https://www.loc.gov/",
+      "icon": "assets/institutions/loc.svg",
+      "source": "https://www.loc.gov/",
+      "method": "SVG original da marca visível no cabeçalho, obtido por acesso normal à página oficial no navegador, sem alterar a geometria."
+    }
+  ]
+}

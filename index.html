@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f5f1e8">
+  <meta name="description" content="Um ateliê aberto para observar, escutar, experimentar e criar. Percursos em artes visuais, música, dança e teatro para diferentes idades.">
+  <title>art — o mundo é seu ateliê</title>
+  <link rel="stylesheet" href="styles.css?v=20261107-contas-final">
+  <script src="config.js" defer></script>
+  <script src="app.js?v=20261107-contas-final" defer></script>
+</head>
+<body data-theme="inicio">
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <a href="#inicio" class="logo" aria-label="art — início">art<span class="logo-dot" aria-hidden="true"></span></a>
+    <nav aria-label="Navegação principal"><a href="#atelies">Os ateliês</a><a href="#acervo">Acervo aberto</a><a href="#caderno">Meu caderno <span id="note-count">0</span></a></nav>
+    <div id="header-account" aria-live="polite"><a href="#conta" class="header-login">Entrar / cadastrar</a></div>
+    <button class="profile-button" id="profile-open" aria-haspopup="dialog"><span aria-hidden="true">◉</span> <span id="profile-label">Seu percurso</span> <span aria-hidden="true">↗</span></button>
+  </header>
+  <main id="conteudo" tabindex="-1"><div id="view"><p class="loading">Abrindo o ateliê…</p></div></main>
+  <footer><a class="footer-logo" href="#inicio">art.</a><p>Arte se aprende com o olhar, o corpo e a experiência.</p><div><a href="#sobre">Sobre o projeto e acessibilidade</a><span>Feito para explorar. No seu tempo.</span></div><nav class="institution-links" aria-label="Acervos e referências institucionais"><span>Referências</span><a href="https://www.clevelandart.org/" target="_blank" rel="noopener noreferrer" title="Cleveland Museum of Art — abre em nova aba"><img src="assets/institutions/cleveland.svg" width="16" height="16" alt="Cleveland Museum of Art" loading="lazy"></a><a href="https://www.metmuseum.org/" target="_blank" rel="noopener noreferrer" title="The Metropolitan Museum of Art — abre em nova aba"><img src="assets/institutions/met.svg" width="16" height="16" alt="The Metropolitan Museum of Art" loading="lazy"></a><a href="https://masp.org.br/" target="_blank" rel="noopener noreferrer" title="MASP — abre em nova aba"><img src="assets/institutions/masp.png" width="16" height="16" alt="MASP" loading="lazy"></a><a href="https://www.musee-rodin.fr/" target="_blank" rel="noopener noreferrer" title="Musée Rodin — abre em nova aba"><img src="assets/institutions/rodin.ico" width="16" height="16" alt="Musée Rodin" loading="lazy"></a><a href="https://www.gov.br/museugoeldi/" target="_blank" rel="noopener noreferrer" title="Museu Paraense Emílio Goeldi — abre em nova aba"><img src="assets/institutions/goeldi.ico" width="16" height="16" alt="Museu Paraense Emílio Goeldi" loading="lazy"></a><a href="https://www.camara.leg.br/" target="_blank" rel="noopener noreferrer" title="Câmara dos Deputados — abre em nova aba"><img src="assets/institutions/camara.png" width="16" height="16" alt="Câmara dos Deputados" loading="lazy"></a><a href="https://www.vam.ac.uk/" target="_blank" rel="noopener noreferrer" title="Victoria and Albert Museum — abre em nova aba"><img src="assets/institutions/va.png" width="16" height="16" alt="Victoria and Albert Museum" loading="lazy"></a><a href="https://www.gov.br/iphan/" target="_blank" rel="noopener noreferrer" title="Iphan — abre em nova aba"><img src="assets/institutions/iphan.ico" width="16" height="16" alt="Iphan" loading="lazy"></a><a href="https://pinacoteca.org.br/" target="_blank" rel="noopener noreferrer" title="Pinacoteca de São Paulo — abre em nova aba"><img src="assets/institutions/pinacoteca.png" width="16" height="16" alt="Pinacoteca de São Paulo" loading="lazy"></a><a href="https://www.loc.gov/" target="_blank" rel="noopener noreferrer" title="Library of Congress — abre em nova aba"><img src="assets/institutions/loc.svg" width="16" height="16" alt="Library of Congress" loading="lazy"></a></nav></footer>
+  <dialog id="profile-dialog" aria-labelledby="profile-title">
+    <form method="dialog"><button class="close" aria-label="Fechar escolha de percurso">×</button></form>
+    <p class="eyebrow">UM COMEÇO DO SEU JEITO</p><h2 id="profile-title">Como você quer explorar?</h2>
+    <p>Escolha um modo de mediação, sem faixa rígida de idade. As sugestões mudam; o encontro continua aberto para todos. Você pode trocar quando quiser, sem perder o caderno.</p>
+    <div class="profile-options">
+      <button data-profile="infancia"><strong>Infância</strong><span>Descobertas curtas, brincar e criar. Com acompanhamento quando necessário.</span></button>
+      <button data-profile="adolescencia"><strong>Adolescência</strong><span>Investigar referências, experimentar e desenvolver ideias próprias.</span></button>
+      <button data-profile="adultos"><strong>Público adulto</strong><span>Relacionar experiências, aprofundar escolhas e construir projetos.</span></button>
+      <button data-profile="livre"><strong>Explorar livremente</strong><span>Conhecer os ateliês e escolher desafios no seu ritmo.</span></button>
+    </div>
+    <p class="small">Sem cadastro. Esta escolha fica apenas neste navegador.</p>
+  </dialog>
+  <p class="sr-only" id="live" role="status" aria-live="polite"></p>
+  <noscript><p>Este ateliê usa JavaScript para os percursos e o caderno. Consulte os acervos diretamente em <a href="https://www.metmuseum.org/art/collection" target="_blank" rel="noopener noreferrer">The Met — abre em nova aba</a>.</p></noscript>
+</body>
+</html>

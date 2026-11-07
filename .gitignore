@@ -1,0 +1,14 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.supabase/
+dist/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.log
+
+.firebase/
+*-debug.log
+ui-debug.log

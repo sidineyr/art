@@ -1,0 +1,758 @@
+{
+  "visuais": [
+    {
+      "id": "perceber",
+      "title": "Um mundo de linhas e cores",
+      "objective": "Reconhecer linhas, formas, cores e texturas e usá-las para comunicar uma sensação.",
+      "observe": "Que caminhos seus olhos percorrem primeiro? O que muda quando você observa de perto?",
+      "context": "Uma imagem pode ser explorada por suas relações de cor, linha, forma e textura. Nesta proposta, as interpretações partem do que você consegue observar.",
+      "materials": [
+        "Papel reutilizado",
+        "Lápis, canetas ou materiais de colorir"
+      ],
+      "steps": [
+        "Observe um objeto cotidiano de longe e depois de perto. Encontre três linhas, duas formas e uma textura.",
+        "Desenhe o objeto usando apenas linhas; ao lado, represente-o usando apenas manchas de cor ou diferentes pressões do lápis.",
+        "Dê um título às duas versões e explique qual sensação cada uma comunica."
+      ],
+      "adaptation": "Você pode descrever o objeto oralmente ou explorar texturas de objetos seguros pelo toque, sem precisar desenhar.",
+      "reflection": "Que escolha sua fez a imagem parecer calma, agitada ou curiosa?",
+      "audience": {
+        "infancia": "Escolha um brinquedo ou utensílio seguro e transforme suas formas em três manchas grandes.",
+        "adolescencia": "Compare duas versões de um mesmo objeto e justifique como cor e enquadramento mudam sua leitura.",
+        "adultos": "Escolha um objeto de uso diário e represente uma memória ligada a ele, distinguindo observação e lembrança.",
+        "livre": "Faça uma versão curta com três linhas ou aprofunde criando duas interpretações contrastantes."
+      }
+    },
+    {
+      "id": "conhecer",
+      "title": "Olhar uma obra por mais tempo",
+      "objective": "Distinguir observação, interpretação e informação documentada em uma pintura ou escultura.",
+      "observe": "O que você realmente vê e o que está imaginando sobre esta obra?",
+      "context": "A ficha de um museu informa autoria, materiais e contexto quando conhecidos. Uma interpretação pessoal pode dialogar com esses dados sem virar um fato sobre a intenção do artista.",
+      "materials": [
+        "Recurso oficial indicado no encontro",
+        "Papel ou caderno"
+      ],
+      "steps": [
+        "Observe a obra selecionada sem ler o texto durante um minuto. Anote três detalhes concretos.",
+        "Leia a ficha institucional e separe suas notas em 'eu observei', 'a fonte informa' e 'eu interpreto'.",
+        "Escolha um detalhe e faça um desenho, descrição ou pequeno modelo que mostre por que ele chamou sua atenção."
+      ],
+      "adaptation": "Use uma descrição textual da obra ou ouça a leitura da ficha. Compare características que o recurso permite perceber; não presuma detalhes ausentes.",
+      "reflection": "Que informação da ficha mudou sua primeira interpretação?",
+      "audience": {
+        "infancia": "Diga três coisas que aparecem na obra; depois invente uma pergunta para fazer a ela, deixando claro que é imaginação.",
+        "adolescencia": "Compare sua hipótese inicial com os dados do museu e registre uma dúvida que continua aberta.",
+        "adultos": "Investigue como material, contexto de exibição e título influenciam sua leitura.",
+        "livre": "Observe só um detalhe e consulte sua ficha; se desejar, compare duas obras."
+      }
+    },
+    {
+      "id": "experimentar",
+      "title": "Laboratório de marcas",
+      "objective": "Experimentar desenho, colagem e fricção sobre texturas para perceber como a técnica muda uma imagem.",
+      "observe": "A mesma forma parece diferente quando é desenhada, recortada ou impressa?",
+      "context": "Esta oficina propõe desenho, colagem e frottage: uma textura aparece ao friccionar o lápis sobre um papel apoiado em relevo. Esse processo não é o mesmo que uma gravura impressa a partir de uma matriz e não exige ferramentas cortantes.",
+      "materials": [
+        "Papel reutilizado",
+        "Lápis",
+        "Retalhos de papel e cola opcional",
+        "Folha seca ou superfície segura com relevo"
+      ],
+      "steps": [
+        "Desenhe uma forma que você inventou e repita-a com tamanhos diferentes.",
+        "Monte a mesma forma com retalhos, aproximando ou sobrepondo os pedaços; se não houver cola, fotografe mentalmente ou descreva a montagem.",
+        "Coloque papel sobre uma superfície segura com relevo e esfregue o lápis de lado para obter uma textura; use a textura em outra composição.",
+        "Compare o desenho, a colagem e a textura obtida por fricção. Escolha o processo mais adequado à sensação que deseja comunicar."
+      ],
+      "adaptation": "Substitua recorte por rasgadura ou escolha e organize peças já separadas. Alguém pode executar gestos segundo suas decisões.",
+      "reflection": "O que foi descoberto por acaso e vale a pena repetir?",
+      "audience": {
+        "infancia": "Faça marcas com duas pressões do lápis e monte uma figura com três pedaços de papel.",
+        "adolescencia": "Crie três versões de uma forma e registre qual técnica produz maior contraste.",
+        "adultos": "Investigue como marcas do material se relacionam com lembranças de um lugar ou ofício.",
+        "livre": "Experimente só uma técnica ou reúna as três em uma página de estudos."
+      }
+    },
+    {
+      "id": "criar",
+      "title": "Uma escultura para caber na mão",
+      "objective": "Construir uma forma tridimensional e investigar volume, equilíbrio e pontos de vista.",
+      "observe": "O que aparece quando você gira uma forma que não podia ser visto de frente?",
+      "context": "Esculturas e modelagens podem ser observadas por diferentes ângulos. Aqui a proposta é criar uma forma original a partir de uma ideia cotidiana, sem reproduzir símbolos culturais cujo sentido não foi estudado.",
+      "materials": [
+        "Papel reutilizado ou massa de modelar disponível",
+        "Base de papelão opcional"
+      ],
+      "steps": [
+        "Escolha uma ideia, como abrigo, encontro ou movimento. Faça dois esboços de como ela poderia ocupar o espaço.",
+        "Dobre, amasse ou modele o material. Teste como a forma se sustenta sem pontas perigosas.",
+        "Gire a peça ou descreva três pontos de vista. Modifique uma parte para reforçar sua ideia.",
+        "Dê um título e explique uma decisão de volume, vazio ou equilíbrio."
+      ],
+      "adaptation": "Projete a escultura por descrição, organize peças com apoio ou desenhe vistas alternativas. A decisão artística pode ser sua mesmo com assistência na execução.",
+      "reflection": "Que diferença existe entre sua ideia inicial e a forma que o material permitiu criar?",
+      "audience": {
+        "infancia": "Modele uma forma de abrigo para um personagem imaginário, usando papel amassado.",
+        "adolescencia": "Crie uma peça que pareça mover-se e teste três posições antes de escolher uma.",
+        "adultos": "Construa uma forma ligada a uma experiência pessoal e escreva uma legenda de processo.",
+        "livre": "Crie uma peça pequena ou desenvolva um conjunto com três variações."
+      }
+    },
+    {
+      "id": "conectar",
+      "title": "O lugar vira composição",
+      "objective": "Relacionar fotografia, instalação e imagem digital ao organizar um espaço cotidiano.",
+      "observe": "Como a posição dos objetos muda a maneira de olhar um lugar?",
+      "context": "Uma instalação pode propor relações entre objetos, espaço e quem observa. Uma fotografia ou um enquadramento digital seleciona parte dessa experiência; o registro não é igual à obra no espaço.",
+      "materials": [
+        "Três objetos seguros",
+        "Um pequeno espaço livre",
+        "Papel; câmera opcional"
+      ],
+      "steps": [
+        "Organize três objetos em uma superfície sem bloquear passagem. Use distância, repetição ou contraste para comunicar uma ideia.",
+        "Escolha dois enquadramentos com um retângulo de papel ou com as mãos. Se preferir, fotografe sem incluir pessoas ou dados pessoais.",
+        "Desenhe um plano de uma versão digital: o que poderia mudar com luz, camadas ou sequência de imagens?",
+        "Compare o espaço real e seu enquadramento. Explique o que foi incluído e o que ficou de fora."
+      ],
+      "adaptation": "Faça uma maquete sobre uma mesa acessível, uma montagem tátil com objetos seguros ou um plano descrito. Câmera e aplicativos não são necessários.",
+      "reflection": "O registro conta a mesma história que estar diante da montagem?",
+      "audience": {
+        "infancia": "Monte um caminho para os olhos com três objetos e desenhe o que cabe na sua 'janela' de papel.",
+        "adolescencia": "Produza dois enquadramentos que comuniquem ideias diferentes usando a mesma montagem.",
+        "adultos": "Transforme um canto doméstico em comentário visual sobre rotina ou cuidado, com objetos que já possui.",
+        "livre": "Explore apenas o enquadramento ou planeje também uma sequência digital."
+      }
+    },
+    {
+      "id": "compartilhar",
+      "title": "Uma pequena exposição de processos",
+      "objective": "Selecionar produções, escrever créditos e reconhecer mudanças no próprio percurso.",
+      "observe": "Qual trabalho mostra melhor uma descoberta, mesmo sem ser seu favorito?",
+      "context": "Uma exposição pode tornar visíveis escolhas e processos. Materiais próprios e referências de acervos devem ser identificados separadamente, respeitando créditos e condições de uso.",
+      "materials": [
+        "Produções dos encontros",
+        "Papel para legendas"
+      ],
+      "steps": [
+        "Escolha duas produções e um estudo que mostrem uma mudança de ideia.",
+        "Escreva para cada uma título, material e uma frase sobre uma escolha sua. Liste à parte as obras consultadas e suas fontes.",
+        "Organize a apresentação em uma mesa, pasta ou sequência descrita. Convide alguém a dizer o que percebe antes de explicar.",
+        "Registre uma descoberta, uma dificuldade e uma experiência que gostaria de fazer depois."
+      ],
+      "adaptation": "Compartilhe apenas com quem desejar ou faça uma apresentação para si. Use legendas orais, texto ampliado ou descrição tátil autorizada.",
+      "reflection": "O que você consegue observar ou fazer agora que ainda não conseguia no início?",
+      "audience": {
+        "infancia": "Escolha um trabalho e conte 'eu tentei, eu mudei, eu descobri'.",
+        "adolescencia": "Apresente um antes e depois e explique a revisão que melhorou sua intenção expressiva.",
+        "adultos": "Monte uma seleção comentada que conecte escolhas materiais e experiências pessoais.",
+        "livre": "Faça uma mostra de uma única produção ou uma pequena curadoria de todo o percurso."
+      }
+    }
+  ],
+  "musica": [
+    {
+      "id": "perceber",
+      "title": "Escuta que encontra caminhos",
+      "objective": "Perceber duração, intensidade, timbre e silêncio em uma paisagem sonora.",
+      "observe": "Quais sons estão perto, quais estão longe e quais aparecem apenas quando você espera?",
+      "context": "Escutar com atenção permite comparar características dos sons. Nesta proposta, 'forte' e 'fraco', 'curto' e 'longo' descrevem relações percebidas, sem classificar sons ou culturas como melhores.",
+      "materials": [
+        "Papel",
+        "Lápis",
+        "Um lugar seguro para escutar"
+      ],
+      "steps": [
+        "Reserve um minuto para escutar em volume confortável. Não grave pessoas nem conversas.",
+        "Represente cinco acontecimentos sonoros com sinais inventados; inclua pausas.",
+        "Escolha dois sons e compare duração, intensidade e timbre. Reproduza-os suavemente com a voz, com gestos ou por descrição."
+      ],
+      "adaptation": "Observe vibrações seguras e pistas visuais de uma fonte sonora, ou organize uma sequência de sinais e silêncios. Não aumente o volume para tentar perceber um som.",
+      "reflection": "Que som passou despercebido antes da pausa para escutar?",
+      "audience": {
+        "infancia": "Encontre três sons e invente um desenho para cada um.",
+        "adolescencia": "Crie um mapa com sons próximos e distantes e discuta o que a escuta revela sobre o lugar.",
+        "adultos": "Compare dois momentos da rotina e pense como a paisagem sonora influencia atenção e bem-estar.",
+        "livre": "Faça um mapa de três sons ou investigue um minuto inteiro de mudanças."
+      }
+    },
+    {
+      "id": "conhecer",
+      "title": "Uma peça, várias escutas",
+      "objective": "Relacionar uma peça musical aos dados disponíveis e identificar mudanças percebidas durante a escuta.",
+      "observe": "O que retorna, o que se transforma e como você percebe essas mudanças?",
+      "context": "Título, compositor, intérprete e gravação são informações diferentes. Quando há apenas partitura, ela deve ser apresentada como escrita musical, sem prometer uma gravação que não está disponível.",
+      "materials": [
+        "Peça ou partitura oficial indicada",
+        "Papel"
+      ],
+      "steps": [
+        "Consulte a ficha e registre quais informações estão disponíveis: título, composição, interpretação e data.",
+        "Se houver áudio acessível, escute um trecho e marque repetições, contrastes e pausas; com partitura, observe sinais e padrões visuais descritos pela fonte.",
+        "Na segunda exploração, acompanhe apenas um aspecto: um timbre, uma mudança de intensidade ou um padrão da escrita.",
+        "Compare sua percepção com a descrição institucional e formule uma pergunta ainda não respondida."
+      ],
+      "adaptation": "Explore a partitura visualmente ou com descrição, leia informações sobre instrumentos e use marcas para representar a organização temporal. Áudio não é condição para participar.",
+      "reflection": "O que a segunda exploração revelou que a primeira não mostrou?",
+      "audience": {
+        "infancia": "Marque quando algo parece voltar e quando muda; na partitura, procure dois sinais parecidos.",
+        "adolescencia": "Distinga composição e interpretação e proponha uma hipótese sobre o efeito de um contraste percebido.",
+        "adultos": "Investigue como suas memórias influenciam a escuta, separando associação pessoal de dado documentado.",
+        "livre": "Escolha um pequeno trecho ou compare duas passagens da mesma peça."
+      }
+    },
+    {
+      "id": "experimentar",
+      "title": "Ritmos de coisas simples",
+      "objective": "Criar e variar padrões de duração e pausa mantendo um pulso confortável.",
+      "observe": "Como o mesmo grupo de sons muda quando uma pausa troca de lugar?",
+      "context": "Ritmo pode ser explorado com durações, repetições e silêncios. As sequências desta atividade são exercícios originais, sem serem apresentadas como representação de uma tradição cultural.",
+      "materials": [
+        "Mãos, voz ou objeto seguro",
+        "Papel"
+      ],
+      "steps": [
+        "Escolha um som suave e um gesto de silêncio. Faça quatro pulsações lentas e regulares.",
+        "Crie uma sequência de quatro posições combinando sons e pausas. Anote-a com sinais inventados.",
+        "Repita a sequência e altere apenas uma posição. Depois experimente um som de outro timbre.",
+        "Compare o efeito da pausa e da troca de timbre sem tocar mais alto."
+      ],
+      "adaptation": "Use movimentos pequenos, piscar, apontar símbolos ou acompanhar visualmente uma sequência. Pode indicar as escolhas para outra pessoa executar.",
+      "reflection": "Qual mudança alterou mais o caráter do seu ritmo?",
+      "audience": {
+        "infancia": "Faça uma sequência com dois sons e duas pausas e peça a alguém para repeti-la.",
+        "adolescencia": "Crie uma sequência-base e duas variações, anotando exatamente o que mudou.",
+        "adultos": "Explore como um padrão de trabalho cotidiano poderia virar um exercício rítmico autoral.",
+        "livre": "Trabalhe quatro posições ou amplie para oito mantendo uma pausa intencional."
+      }
+    },
+    {
+      "id": "criar",
+      "title": "Uma composição de meio minuto",
+      "objective": "Organizar começo, desenvolvimento e final em uma criação sonora autoral.",
+      "observe": "Como alguém percebe que sua criação começou, mudou e terminou?",
+      "context": "Uma composição pode usar voz, objetos, corpo, silêncio ou uma combinação deles. O objetivo aqui é tomar decisões e revisá-las, sem exigir instrumento, leitura de partitura ou gravação.",
+      "materials": [
+        "Papel",
+        "Fontes sonoras seguras opcionais"
+      ],
+      "steps": [
+        "Escolha uma ideia, como chuva imaginada ou uma caminhada. Liste três sons ou sinais que você pode produzir confortavelmente.",
+        "Desenhe uma sequência com começo, transformação e final; marque onde haverá silêncio.",
+        "Execute ou conduza a sequência uma vez. Identifique uma parte confusa e revise sua duração ou ordem.",
+        "Apresente novamente e explique uma decisão. Se não executar, faça uma leitura guiada dos sinais."
+      ],
+      "adaptation": "Crie uma partitura visual, tátil ou descrita e conduza uma execução com assistência. Participar pode ser compor, organizar ou indicar as entradas.",
+      "reflection": "Que revisão tornou a intenção mais perceptível?",
+      "audience": {
+        "infancia": "Crie uma história sonora com três momentos e um silêncio importante.",
+        "adolescencia": "Defina uma regra de composição e mostre como ela se transforma no trecho final.",
+        "adultos": "Crie uma peça curta ligada a um lugar ou memória, anotando o que é invenção e o que é referência.",
+        "livre": "Faça três acontecimentos sonoros ou uma sequência de aproximadamente meio minuto."
+      }
+    },
+    {
+      "id": "conectar",
+      "title": "Som que muda a cena",
+      "objective": "Investigar relações entre música, imagem e movimento sem impor uma única interpretação.",
+      "observe": "Uma imagem parece mudar quando a sequência sonora muda?",
+      "context": "Relacionar som e imagem é uma escolha de criação. Pessoas podem construir associações diferentes diante da mesma combinação, e uma interpretação não prova a intenção de quem fez a obra.",
+      "materials": [
+        "Desenho próprio",
+        "Sequências sonoras próprias ou sinais"
+      ],
+      "steps": [
+        "Escolha um desenho seu e crie duas sequências curtas: uma com poucos acontecimentos e outra com maior contraste.",
+        "Apresente o desenho com cada sequência, executando ou descrevendo sons e pausas.",
+        "Escolha um gesto acessível para acompanhar cada versão e observe como muda a leitura.",
+        "Registre quais relações foram intencionais e quais surgiram durante a experiência."
+      ],
+      "adaptation": "Faça a comparação por partituras visuais, legendas e ritmos indicados com gestos confortáveis. Nenhuma reprodução de áudio é obrigatória.",
+      "reflection": "Como você justificaria duas trilhas diferentes para a mesma imagem?",
+      "audience": {
+        "infancia": "Escolha um desenho e faça uma versão sonora calma e outra cheia de pausas-surpresa.",
+        "adolescencia": "Compare efeitos de densidade, silêncio e timbre sem depender só da oposição rápido/lento.",
+        "adultos": "Planeje duas trilhas para uma cena cotidiana e discuta como orientam a atenção de quem acompanha.",
+        "livre": "Combine dois sinais e uma imagem ou desenvolva uma pequena cena."
+      }
+    },
+    {
+      "id": "compartilhar",
+      "title": "Meu caderno de escutas",
+      "objective": "Registrar escolhas musicais e dar retorno descritivo a uma criação.",
+      "observe": "Como comentar uma criação sem resumir tudo a 'gostei' ou 'não gostei'?",
+      "context": "Um retorno útil pode nomear o que foi percebido, perguntar sobre uma escolha e oferecer uma possibilidade. Ele não precisa julgar talento nem comparar a pessoa a músicos profissionais.",
+      "materials": [
+        "Registros e partituras pessoais"
+      ],
+      "steps": [
+        "Escolha uma escuta registrada e uma criação sua. Identifique uma diferença entre elas.",
+        "Apresente sua criação ou seus sinais e diga qual aspecto gostaria que fosse observado.",
+        "Peça um comentário começando por 'percebi...' e uma pergunta começando por 'como você escolheu...'. Se estiver só, use essas frases para reler o trabalho.",
+        "Anote uma revisão possível e um recurso musical que quer explorar mais."
+      ],
+      "adaptation": "Compartilhe por texto, descrição, sinais ou execução. Não publique gravações nem exponha outras pessoas sem consentimento.",
+      "reflection": "Que palavra musical ajuda você a explicar melhor suas escolhas agora?",
+      "audience": {
+        "infancia": "Conte qual som ou pausa foi mais importante na sua criação.",
+        "adolescencia": "Use duração, timbre, intensidade ou repetição para comentar uma decisão concreta.",
+        "adultos": "Relacione sua criação a uma mudança na maneira de escutar o cotidiano.",
+        "livre": "Registre uma descoberta ou organize um caderno com exemplos de todo o percurso."
+      }
+    }
+  ],
+  "danca": [
+    {
+      "id": "perceber",
+      "title": "Movimentos que já moram em você",
+      "objective": "Perceber partes do corpo, direções, apoios e amplitudes possíveis sem exigir um padrão corporal.",
+      "observe": "De quantas maneiras um pequeno gesto pode ocupar o espaço?",
+      "context": "Toda proposta corporal deve respeitar conforto, mobilidade e escolha. Observar, imaginar e descrever movimentos também são modos de investigar a dança.",
+      "materials": [
+        "Espaço confortável e desobstruído",
+        "Cadeira estável opcional"
+      ],
+      "steps": [
+        "Escolha um gesto cotidiano confortável, como acenar, olhar ou mover um dedo. Observe seu começo e seu final.",
+        "Repita-o com amplitude pequena e, se confortável, um pouco maior. Explore frente, lado ou uma direção imaginada.",
+        "Faça uma pausa e descreva qual parte se moveu, qual apoio ajudou e qual mudança você percebeu."
+      ],
+      "adaptation": "Realize sentado, com olhos, mãos ou outra parte confortável; imagine o movimento ou conduza alguém por descrição. Não force amplitude nem continue diante de dor.",
+      "reflection": "O que fez um gesto conhecido se tornar uma nova descoberta?",
+      "audience": {
+        "infancia": "Transforme um aceno em três tamanhos, escolhendo apenas os que forem confortáveis.",
+        "adolescencia": "Compare direção, apoio e amplitude sem imitar um corpo ideal.",
+        "adultos": "Observe um gesto da rotina e investigue como ele comunica presença e intenção.",
+        "livre": "Explore um único gesto ou compare três pequenas variações."
+      }
+    },
+    {
+      "id": "conhecer",
+      "title": "Assistir com o corpo atento",
+      "objective": "Observar uma manifestação de dança e distinguir movimento, contexto e interpretação.",
+      "observe": "Que relações você percebe entre pessoas, espaço e tempo no registro?",
+      "context": "Registros de dança mostram um recorte de uma prática. Consulte como a instituição nomeia a manifestação e seus participantes, reconhecendo que uma comunidade não se resume a uma apresentação.",
+      "materials": [
+        "Registro ou documento oficial indicado",
+        "Papel"
+      ],
+      "steps": [
+        "Leia o título e os créditos do registro. Identifique comunidade, grupo ou autoria apenas quando informados.",
+        "Observe ou leia a descrição de uma passagem: há roda, fila, aproximação, pausas ou movimentos individuais?",
+        "Separe uma característica observada de uma interpretação sua e de uma informação trazida pela fonte.",
+        "Crie uma pergunta sobre a prática e registre onde seria necessário pesquisar mais."
+      ],
+      "adaptation": "Use legenda, descrição ou documento textual. Em vez de reproduzir a dança, represente relações espaciais com pontos sobre papel.",
+      "reflection": "O que seria inadequado afirmar sobre toda uma comunidade a partir deste único registro?",
+      "audience": {
+        "infancia": "Identifique se as pessoas se aproximam, se afastam ou formam um grupo e desenhe esses caminhos.",
+        "adolescencia": "Compare o recorte do registro com os limites das informações disponíveis, evitando generalizações culturais.",
+        "adultos": "Reflita sobre contexto, ocasião e autoria e sobre o que o documento não permite conhecer.",
+        "livre": "Observe uma relação espacial ou investigue também os créditos e o contexto. "
+      }
+    },
+    {
+      "id": "experimentar",
+      "title": "Um gesto, muitos tempos",
+      "objective": "Experimentar ritmo, duração e qualidade de movimento com segurança.",
+      "observe": "O mesmo gesto comunica algo diferente quando demora mais ou inclui uma pausa?",
+      "context": "Não é preciso executar saltos, giros ou movimentos amplos para investigar tempo e expressão. Esta oficina usa gestos originais e acessíveis, sem copiar práticas cerimoniais.",
+      "materials": [
+        "Um gesto confortável",
+        "Sinais desenhados opcionais"
+      ],
+      "steps": [
+        "Escolha um gesto pequeno e defina claramente onde começa e termina.",
+        "Experimente o gesto em duração curta e longa, mantendo conforto. Depois inclua uma pausa no meio.",
+        "Combine três sinais: mover, pausar e mudar de direção. Execute ou indique uma sequência.",
+        "Observe qual versão sugere leveza, esforço, hesitação ou outra qualidade, tratando isso como sua interpretação."
+      ],
+      "adaptation": "Use olhar, respiração natural sem prender o ar, dedos ou imaginação; pode conduzir movimentos de outra pessoa que aceite participar.",
+      "reflection": "Qual mudança de tempo fez sua intenção ficar mais clara?",
+      "audience": {
+        "infancia": "Brinque de gesto e pausa com dois sinais que você mesmo desenhou.",
+        "adolescencia": "Varie apenas um elemento por vez e registre o efeito de cada mudança.",
+        "adultos": "Reinterprete um gesto habitual usando duração e pausa, sem aumentar esforço físico.",
+        "livre": "Crie uma sequência de dois sinais ou explore quatro combinações."
+      }
+    },
+    {
+      "id": "criar",
+      "title": "Uma dança de três escolhas",
+      "objective": "Compor uma sequência autoral com gesto, direção e pausa.",
+      "observe": "O que você quer que alguém acompanhe na sua sequência?",
+      "context": "Uma composição coreográfica organiza decisões no tempo e no espaço. Não há obrigação de representar emoções específicas nem de apresentar o corpo publicamente.",
+      "materials": [
+        "Papel ou descrição oral",
+        "Espaço acessível"
+      ],
+      "steps": [
+        "Escolha três gestos possíveis e dê um nome simples a cada um.",
+        "Organize os gestos em uma ordem com começo, uma repetição transformada e uma pausa final.",
+        "Experimente ou imagine a sequência. Revise uma transição para ficar mais confortável ou expressiva.",
+        "Registre com palavras, setas ou desenhos para poder retomar sem filmar."
+      ],
+      "adaptation": "Componha para mãos, olhar, objetos manipulados ou movimentos imaginados. O registro pode descrever uma dança que outra pessoa executaria com consentimento.",
+      "reflection": "Qual decisão faz a sequência ter uma identidade própria?",
+      "audience": {
+        "infancia": "Junte três gestos confortáveis e repita seu favorito uma vez.",
+        "adolescencia": "Defina uma regra de repetição e transforme um gesto no segundo aparecimento.",
+        "adultos": "Crie uma sequência ligada a um tema pessoal e explique como revisou as transições.",
+        "livre": "Componha só com duas partes do corpo ou descreva a sequência sem executá-la."
+      }
+    },
+    {
+      "id": "conectar",
+      "title": "Corpo, desenho e percurso",
+      "objective": "Traduzir uma sequência de movimento em desenho e experimentar uma nova leitura.",
+      "observe": "Uma linha pode sugerir um caminho de movimento sem dizer exatamente como o corpo deve ser?",
+      "context": "Desenhos podem funcionar como convites para movimento. A tradução entre linguagens modifica a ideia e pode produzir várias respostas igualmente justificáveis.",
+      "materials": [
+        "Papel",
+        "Lápis",
+        "Sequência própria"
+      ],
+      "steps": [
+        "Desenhe três tipos de linha: curva, interrompida e espiral ou outra que preferir.",
+        "Escolha como cada linha poderia orientar um gesto, um objeto ou uma direção imaginada, evitando movimentos desconfortáveis.",
+        "Organize os desenhos em uma sequência e faça duas leituras diferentes.",
+        "Compare o que se manteve e o que se transformou entre desenho e dança."
+      ],
+      "adaptation": "Percorra as linhas com o olhar, um dedo ou uma descrição. Não é preciso caminhar, girar nem seguir a forma literalmente.",
+      "reflection": "Qual leitura surpreendeu você e por quê?",
+      "audience": {
+        "infancia": "Escolha duas linhas e invente um pequeno gesto para cada uma.",
+        "adolescencia": "Mostre duas soluções para a mesma partitura visual e explique suas diferenças.",
+        "adultos": "Relacione os trajetos desenhados a modos de ocupar um espaço cotidiano.",
+        "livre": "Use uma linha como ponto de partida ou componha um pequeno roteiro visual."
+      }
+    },
+    {
+      "id": "compartilhar",
+      "title": "Mostrar sem precisar se expor",
+      "objective": "Compartilhar decisões coreográficas e refletir sobre autoria, conforto e participação.",
+      "observe": "Como alguém pode conhecer sua dança sem assistir a uma gravação sua?",
+      "context": "Uma criação pode ser compartilhada por execução, desenho, texto ou conversa. A escolha de não se apresentar deve ser respeitada e não diminui o valor do processo.",
+      "materials": [
+        "Registro da composição"
+      ],
+      "steps": [
+        "Escolha como apresentar: realizar, descrever, mostrar desenhos ou conversar sobre o processo.",
+        "Explique uma escolha de espaço, uma de tempo e uma adaptação de conforto.",
+        "Convide quem acompanha a descrever uma relação percebida e a fazer uma pergunta respeitosa; se estiver só, faça sua própria revisão.",
+        "Registre um limite que respeitou e uma possibilidade que descobriu."
+      ],
+      "adaptation": "Apresente apenas a partitura ou a descrição; nenhuma câmera, postagem ou movimento público é obrigatório.",
+      "reflection": "Que ideia sobre o que conta como dança mudou no seu percurso?",
+      "audience": {
+        "infancia": "Conte sua sequência usando três desenhos e diga qual gesto foi mais confortável.",
+        "adolescencia": "Mostre uma versão inicial e uma revista e explique uma decisão de acessibilidade.",
+        "adultos": "Discuta como a possibilidade de escolher o modo de participação ampliou sua criação.",
+        "livre": "Compartilhe uma única decisão ou organize uma apresentação completa do processo."
+      }
+    }
+  ],
+  "teatro": [
+    {
+      "id": "perceber",
+      "title": "Um gesto conta uma história",
+      "objective": "Perceber como corpo, olhar, pausa e posição podem construir uma ação cênica.",
+      "observe": "O que você entende de uma cena antes de alguém dizer uma palavra?",
+      "context": "Uma cena pode ser construída com gestos mínimos ou objetos. Nesta proposta, a observação se concentra em ações e escolhas, sem julgar aparência, desenvoltura ou personalidade.",
+      "materials": [
+        "Objeto cotidiano seguro",
+        "Mesa ou espaço confortável"
+      ],
+      "steps": [
+        "Escolha uma ação simples, como procurar algo ou esperar. Mostre-a com um gesto pequeno ou movendo um objeto.",
+        "Repita a ação incluindo uma pausa antes de agir. Compare o efeito.",
+        "Dê um título e descreva o que uma pessoa poderia inferir e o que continuaria em aberto."
+      ],
+      "adaptation": "Use objetos sobre mesa, descrição escrita ou escolha de ações para outra pessoa realizar com consentimento. Falar e atuar diante de público são opcionais.",
+      "reflection": "Que detalhe ajudou a tornar a ação compreensível?",
+      "audience": {
+        "infancia": "Mostre um objeto que procura outro objeto e invente um nome para a cena.",
+        "adolescencia": "Crie duas versões da mesma ação mudando apenas a pausa ou a direção do olhar.",
+        "adultos": "Observe uma ação cotidiana e transforme-a em cena sem reproduzir pessoas identificáveis.",
+        "livre": "Explore só uma ação ou contraste duas versões."
+      }
+    },
+    {
+      "id": "conhecer",
+      "title": "O que existe além do palco",
+      "objective": "Identificar funções e escolhas de uma montagem a partir de um registro oficial.",
+      "observe": "Quem e o que ajudam uma cena a acontecer além de quem aparece atuando?",
+      "context": "Créditos e documentos de teatro podem revelar dramaturgia, atuação, direção, figurino e cenografia, quando registrados. Uma fotografia mostra um instante e não permite reconstituir sozinha todo o espetáculo.",
+      "materials": [
+        "Documento, imagem ou registro oficial indicado",
+        "Papel"
+      ],
+      "steps": [
+        "Consulte o registro e identifique título, autoria e profissionais apenas quando informados.",
+        "Observe cenário, objetos, roupas, disposição e iluminação que o material permita reconhecer.",
+        "Escolha um elemento e formule uma hipótese sobre sua função, distinguindo hipótese de informação documentada.",
+        "Anote uma pergunta que só outro documento ou o espetáculo completo poderia responder."
+      ],
+      "adaptation": "Use descrição da imagem ou documento textual. Se o recurso não permitir analisar uma função, registre a ausência em vez de inventar.",
+      "reflection": "Que trabalho de criação você passou a perceber melhor?",
+      "audience": {
+        "infancia": "Procure um objeto ou roupa no registro e diga o que ele ajuda a mostrar.",
+        "adolescencia": "Relacione dois elementos de cena e explique quais limites o registro tem.",
+        "adultos": "Investigue a colaboração na montagem e compare dados dos créditos com sua leitura pessoal.",
+        "livre": "Explore um elemento ou mapeie funções diferentes documentadas na fonte."
+      }
+    },
+    {
+      "id": "experimentar",
+      "title": "Um objeto, muitos personagens",
+      "objective": "Experimentar animação de objetos e construção de personagem sem estereótipos.",
+      "observe": "Que personagem pode surgir da maneira de mover um objeto?",
+      "context": "No jogo teatral, um objeto cotidiano pode ganhar funções imaginadas. O personagem nasce de escolhas de ação, objetivo e relação, não de imitações depreciativas de grupos sociais.",
+      "materials": [
+        "Dois objetos seguros de tamanhos manejáveis"
+      ],
+      "steps": [
+        "Escolha um objeto e invente um objetivo simples para ele: alcançar, encontrar, esconder ou proteger.",
+        "Dê ao personagem um modo de mover-se e um sinal de atenção, respeitando os limites do material.",
+        "Apresente um segundo objeto que dificulta ou ajuda seu objetivo. Improvise três pequenas ações.",
+        "Repita a cena mudando o objetivo, sem precisar criar uma voz."
+      ],
+      "adaptation": "Mova peças com apoio, aponte entradas ou descreva a ação. Personagens podem existir apenas em texto ou desenho.",
+      "reflection": "O que mudou no personagem quando seu objetivo mudou?",
+      "audience": {
+        "infancia": "Faça um objeto procurar um lugar para descansar e outro oferecer ajuda.",
+        "adolescencia": "Construa um conflito sem vilão fixo, em que os personagens tenham objetivos diferentes.",
+        "adultos": "Explore um desacordo cotidiano por meio de objetos, preservando privacidade e evitando caricaturas.",
+        "livre": "Crie uma interação de três ações ou desenvolva um pequeno diálogo. "
+      }
+    },
+    {
+      "id": "criar",
+      "title": "Uma cena com começo e escolha",
+      "objective": "Criar uma cena curta com situação, desejo e transformação.",
+      "observe": "Qual escolha faz a situação mudar?",
+      "context": "Uma cena curta pode organizar quem participa, onde acontece e o que está em jogo. O roteiro desta atividade é original e pode ser escrito, desenhado ou contado.",
+      "materials": [
+        "Papel",
+        "Objetos ou desenhos opcionais"
+      ],
+      "steps": [
+        "Defina dois personagens inventados, um lugar e algo que ambos querem resolver.",
+        "Escreva ou desenhe três momentos: situação inicial, dificuldade e escolha que transforma a situação.",
+        "Inclua uma ação sem fala e uma pausa importante. Leia, conte ou encene a sequência.",
+        "Revise um momento para que a mudança fique mais compreensível, sem explicar tudo em uma fala."
+      ],
+      "adaptation": "Crie roteiro em palavras ou imagens, use comunicação alternativa ou teatro de objetos. A atividade não exige memorização nem voz projetada.",
+      "reflection": "Sua transformação acontece por uma ação ou só por uma explicação? O que você prefere?",
+      "audience": {
+        "infancia": "Crie uma história em três quadrinhos sobre dois personagens que precisam compartilhar algo.",
+        "adolescencia": "Escreva duas soluções para o conflito e compare o efeito de cada final.",
+        "adultos": "Construa uma cena sobre uma escolha de cuidado ou convivência, sem expor experiências privadas.",
+        "livre": "Conte a história em três frases ou desenvolva uma cena de poucos minutos."
+      }
+    },
+    {
+      "id": "conectar",
+      "title": "Oficina de espaço e atmosfera",
+      "objective": "Relacionar cenografia, figurino e som à leitura de uma cena.",
+      "observe": "A mesma fala parece acontecer em outro lugar quando os elementos ao redor mudam?",
+      "context": "Objetos, roupas e sons podem sugerir um espaço sem reproduzi-lo literalmente. Esta oficina usa uma cena própria para investigar combinações acessíveis e reutilização de materiais.",
+      "materials": [
+        "Cena própria",
+        "Papéis, tecidos ou objetos disponíveis"
+      ],
+      "steps": [
+        "Escolha um trecho de sua cena e desenhe um espaço com apenas três elementos.",
+        "Planeje uma peça de figurino ou um sinal visual que ajude a identificar uma função, sem usar caricaturas culturais.",
+        "Inclua um som suave, um silêncio ou uma legenda de atmosfera. Compare a cena com e sem esse elemento.",
+        "Reorganize uma escolha para favorecer clareza e circulação segura; represente tudo em uma maquete ou desenho se preferir."
+      ],
+      "adaptation": "Faça o projeto em uma mesa ou em papel, indique opções por texto e substitua sons por sinais visuais. Não use luzes piscantes, fogo ou estruturas instáveis.",
+      "reflection": "Qual elemento ajudou mais a situar a cena sem precisar de explicações?",
+      "audience": {
+        "infancia": "Use três pedaços de papel para sugerir o lugar da história.",
+        "adolescencia": "Crie duas atmosferas para o mesmo trecho mudando um elemento por vez.",
+        "adultos": "Planeje uma montagem mínima com materiais disponíveis e justifique escolhas de reutilização.",
+        "livre": "Projete apenas o espaço ou combine também figurino e som."
+      }
+    },
+    {
+      "id": "compartilhar",
+      "title": "Conversa depois da cena",
+      "objective": "Apresentar um processo teatral e dar retorno com respeito às escolhas de participação.",
+      "observe": "Como saber o que a cena comunicou sem julgar quem apresentou?",
+      "context": "O retorno deve se referir à criação, não ao corpo ou à personalidade da pessoa. Uma leitura de roteiro ou uma apresentação de objetos tem o mesmo direito de ser escutada com atenção.",
+      "materials": [
+        "Roteiro, desenhos ou objetos da criação"
+      ],
+      "steps": [
+        "Escolha um formato de apresentação confortável: leitura, objetos, descrição ou atuação.",
+        "Diga qual aspecto gostaria que fosse observado: conflito, espaço, pausa ou transformação.",
+        "Peça um retorno com 'entendi que...', 'fiquei curioso sobre...' e 'uma possibilidade seria...'. Se estiver só, releia usando essas frases.",
+        "Escolha uma sugestão para testar e explique por que a acolheu ou decidiu manter sua escolha."
+      ],
+      "adaptation": "Compartilhe apenas com alguém de confiança ou faça uma autoavaliação. Não registre nem publique a participação de outras pessoas sem consentimento.",
+      "reflection": "Que revisão melhorou sua cena e que escolha você decidiu preservar?",
+      "audience": {
+        "infancia": "Conte qual parte da história ficou mais clara e qual você gostaria de mudar.",
+        "adolescencia": "Use exemplos da cena para justificar uma sugestão sem transformar gosto pessoal em regra.",
+        "adultos": "Reflita sobre colaboração, autoria e direito de recusar exposição pública.",
+        "livre": "Apresente só um trecho ou compartilhe o processo inteiro."
+      }
+    }
+  ],
+  "integradas": [
+    {
+      "id": "perceber",
+      "title": "Uma ideia atravessa linguagens",
+      "objective": "Reconhecer como uma mesma ideia pode ganhar forma em imagem, som, gesto e cena.",
+      "observe": "O que permanece e o que muda quando uma ideia troca de linguagem?",
+      "context": "As linguagens artísticas podem dialogar sem perder suas particularidades. Nesta proposta, cada tradução é uma escolha autoral, e não uma correspondência universal entre cor, som e emoção.",
+      "materials": [
+        "Papel",
+        "Lápis",
+        "Objeto seguro opcional"
+      ],
+      "steps": [
+        "Escolha uma palavra aberta, como encontro, caminho ou transformação.",
+        "Represente-a com uma linha, uma sequência de sons ou sinais e um pequeno gesto imaginado ou realizado.",
+        "Compare as versões e escreva uma relação que você decidiu criar entre elas."
+      ],
+      "adaptation": "Use apenas texto e sinais, ou escolha duas linguagens confortáveis. Você pode descrever som e movimento sem executá-los.",
+      "reflection": "Qual linguagem revelou uma possibilidade que você ainda não tinha pensado?",
+      "audience": {
+        "infancia": "Escolha 'caminho' e invente um desenho e um gesto para ele.",
+        "adolescencia": "Crie versões contrastantes da mesma palavra e explique as regras da tradução.",
+        "adultos": "Relacione um tema da sua experiência a formas visuais, temporais e narrativas.",
+        "livre": "Explore duas linguagens ou faça quatro pequenas versões."
+      }
+    },
+    {
+      "id": "conhecer",
+      "title": "Referências em conversa",
+      "objective": "Comparar duas referências oficiais e reconhecer contextos e autorias diferentes.",
+      "observe": "Que aproximação você pode propor sem dizer que as obras têm o mesmo significado?",
+      "context": "Uma comparação pode aproximar formas, ritmos ou relações espaciais de obras diferentes. Ela precisa preservar contexto, autoria e especificidades culturais, especialmente ao tratar de produções indígenas e afro-brasileiras.",
+      "materials": [
+        "Duas referências oficiais de linguagens diferentes",
+        "Papel"
+      ],
+      "steps": [
+        "Consulte os créditos de duas referências e registre o que a instituição informa sobre cada uma.",
+        "Escolha uma característica comparável, como repetição, contraste, grupo ou ocupação do espaço.",
+        "Escreva uma semelhança observável e uma diferença. Evite atribuir um sentido cultural que a fonte não documenta.",
+        "Formule uma pergunta sobre a produção ou a comunidade e identifique que fonte oficial seria necessária para aprofundá-la."
+      ],
+      "adaptation": "Compare descrições textuais quando os recursos audiovisuais não forem acessíveis. Uma diferença de acesso também deve ser reconhecida.",
+      "reflection": "O que sua comparação permite perceber e o que ela não permite concluir?",
+      "audience": {
+        "infancia": "Encontre algo que se repete em cada referência e diga uma diferença entre elas.",
+        "adolescencia": "Separe o dado institucional da associação pessoal e discuta os riscos de generalizar uma cultura.",
+        "adultos": "Investigue como modos de circulação e apresentação influenciam sua leitura das referências.",
+        "livre": "Compare um detalhe ou organize uma tabela de relações e limites."
+      }
+    },
+    {
+      "id": "experimentar",
+      "title": "Traduções que surpreendem",
+      "objective": "Testar passagens entre linguagens e registrar o que cada uma acrescenta.",
+      "observe": "Como transformar uma sequência de linhas em tempo sem simplesmente copiá-la?",
+      "context": "Uma tradução artística não precisa reproduzir tudo da referência. Os exercícios a seguir usam produções próprias para que cada participante possa testar escolhas sem apropriar-se de materiais culturais fora de contexto.",
+      "materials": [
+        "Desenho próprio",
+        "Papel",
+        "Objeto seguro opcional"
+      ],
+      "steps": [
+        "Escolha três elementos de um desenho seu e atribua a cada um um sinal, som suave ou pausa.",
+        "Transforme a sequência em uma ação de objetos ou em gestos acessíveis.",
+        "Faça o caminho inverso: desenhe uma nova imagem a partir da sequência, sem olhar a primeira.",
+        "Compare o início e o final e registre uma transformação que gostaria de explorar."
+      ],
+      "adaptation": "Todas as etapas podem ser feitas com palavras, setas e sinais táteis ou visuais. Escolha a modalidade de participação que funcione para você.",
+      "reflection": "O que se perdeu na tradução e o que apareceu de novo?",
+      "audience": {
+        "infancia": "Transforme três formas em três acontecimentos e depois desenhe outra versão.",
+        "adolescencia": "Defina uma regra de tradução e teste em qual momento ela precisa ser modificada.",
+        "adultos": "Explore como diferentes suportes mudam a intenção e documente as escolhas.",
+        "livre": "Faça uma única passagem entre duas linguagens ou complete o ciclo."
+      }
+    },
+    {
+      "id": "criar",
+      "title": "Meu pequeno projeto de arte",
+      "objective": "Planejar um projeto autoral que combine pelo menos duas linguagens com propósito claro.",
+      "observe": "Por que seu projeto precisa dessas duas linguagens?",
+      "context": "Um projeto integrado faz as linguagens colaborarem para uma intenção. Pode ser uma página com partitura visual, um teatro de objetos com cenário ou uma sequência desenhada de dança, sem exigir tecnologia.",
+      "materials": [
+        "Materiais disponíveis escolhidos pelo participante",
+        "Folha de planejamento"
+      ],
+      "steps": [
+        "Defina um tema próximo e uma pergunta que seu trabalho deseja explorar, sem precisar revelar algo íntimo.",
+        "Escolha duas linguagens e diga qual função cada uma terá. Liste os materiais já disponíveis e uma alternativa acessível.",
+        "Faça um protótipo pequeno com começo, transformação e encerramento.",
+        "Experimente e revise uma relação entre as linguagens: o som ajuda a perceber a imagem? O espaço ajuda a acompanhar a ação?"
+      ],
+      "adaptation": "Planeje e conduza o projeto por descrição ou comunicação alternativa. Pode trabalhar individualmente e sem executar movimentos, áudio ou atuação.",
+      "reflection": "As linguagens colaboram com a ideia ou apenas aparecem lado a lado?",
+      "audience": {
+        "infancia": "Crie uma história de três cenas com desenhos e objetos ou sinais sonoros.",
+        "adolescencia": "Escolha um tema e use duas linguagens com funções diferentes, explicando essa decisão.",
+        "adultos": "Desenvolva um projeto sobre memória, território ou convivência, respeitando privacidade e créditos.",
+        "livre": "Faça uma peça de pequena escala ou amplie o protótipo em etapas."
+      }
+    },
+    {
+      "id": "conectar",
+      "title": "Uma obra também pensa em quem chega",
+      "objective": "Revisar o projeto considerando acesso, contexto e escolhas de apresentação.",
+      "observe": "Como alguém pode acompanhar sua ideia sem ver, ouvir ou se mover da mesma maneira que você?",
+      "context": "Acessibilidade faz parte das escolhas de criação. Alternativas textuais, descrições, legendas e liberdade de participação podem ser planejadas desde o início, sem presumir uma experiência única para todos.",
+      "materials": [
+        "Protótipo do projeto",
+        "Papel para descrição e créditos"
+      ],
+      "steps": [
+        "Escolha um trecho essencial e escreva uma descrição clara do que acontece e por que ele importa.",
+        "Ofereça uma alternativa para informações que dependem apenas de cor, som ou movimento. Se houver fala, prepare um texto correspondente.",
+        "Revise os créditos: identifique produções próprias, referências consultadas e materiais de terceiros que não podem ser reproduzidos.",
+        "Peça a alguém para acompanhar o projeto usando a alternativa, ou faça uma leitura crítica sem afirmar que ela substitui testes com diferentes públicos."
+      ],
+      "adaptation": "Escolha o formato alternativo que você mesmo utiliza melhor e explicite limites. Não simule uma deficiência como prova de acessibilidade.",
+      "reflection": "Que mudança de apresentação melhorou a compreensão para mais pessoas?",
+      "audience": {
+        "infancia": "Explique seu trabalho para alguém que não o está olhando e acrescente uma pista que faltou.",
+        "adolescencia": "Revise uma informação transmitida só por som ou cor e crie uma segunda forma de apresentá-la.",
+        "adultos": "Elabore uma descrição e um conjunto de créditos que ajudem o público a compreender e pesquisar.",
+        "livre": "Melhore um trecho ou revise todas as etapas do projeto."
+      }
+    },
+    {
+      "id": "compartilhar",
+      "title": "Mostra de descobertas",
+      "objective": "Compartilhar um projeto integrado e construir uma autoavaliação baseada no processo.",
+      "observe": "Que evidência mostra como sua maneira de criar se transformou?",
+      "context": "A mostra final pode ser privada, presencial ou apenas registrada em um caderno. Ela valoriza escolhas, revisões e perguntas futuras, sem prometer medir talento nem comprovar resultados de aprendizagem sem acompanhamento.",
+      "materials": [
+        "Projeto e registros do processo"
+      ],
+      "steps": [
+        "Escolha como compartilhar e organize uma apresentação com tema, duas decisões de linguagem e uma revisão feita.",
+        "Inclua créditos e explique como alguém pode acessar a versão alternativa do trabalho.",
+        "Solicite retorno sobre a intenção e a relação entre linguagens, ou use as mesmas perguntas em autoavaliação.",
+        "Complete: 'antes eu pensava...', 'agora consigo...', 'ainda quero investigar...'. Escolha um próximo encontro para retomar."
+      ],
+      "adaptation": "Apresente só o processo, mantenha tudo privado ou compartilhe com pessoa de confiança. Não há obrigação de câmera, conta ou postagem.",
+      "reflection": "Qual descoberta você levaria para uma nova criação em outra linguagem?",
+      "audience": {
+        "infancia": "Mostre uma escolha que fez e conte o que mudou depois de experimentar.",
+        "adolescencia": "Compare protótipo e versão final com exemplos concretos de revisão.",
+        "adultos": "Conecte sua descoberta a uma prática artística que deseja continuar na rotina.",
+        "livre": "Compartilhe uma descoberta ou organize uma pequena mostra comentada."
+      }
+    }
+  ]
+}

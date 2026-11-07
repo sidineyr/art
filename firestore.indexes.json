@@ -1,0 +1,58 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "published",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "lesson",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "approvedAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "pending",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "authorUid",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "receipts",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "authorUid",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": [
+    {
+      "collectionGroup": "pending",
+      "fieldPath": "body",
+      "indexes": []
+    },
+    {
+      "collectionGroup": "published",
+      "fieldPath": "body",
+      "indexes": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "firestore": {
+    "database": "(default)",
+    "location": "southamerica-east1",
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "emulators": {
+    "firestore": {
+      "port": 8080
+    },
+    "auth": {
+      "port": 9099
+    },
+    "ui": {
+      "enabled": false
+    },
+    "singleProjectMode": true
+  },
+  "auth": {
+    "providers": {
+      "anonymous": false,
+      "googleSignIn": {
+        "oAuthBrandDisplayName": "art",
+        "supportEmail": "sidiney.rodrigues@gmail.com",
+        "authorizedRedirectUris": [
+          "https://art-percursos-sidineyr-2026.firebaseapp.com/__/auth/handler",
+          "http://localhost",
+          "https://sidineyr.github.io"
+        ]
+      },
+      "emailPassword": true
+    }
+  }
+}

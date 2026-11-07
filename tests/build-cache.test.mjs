@@ -14,6 +14,9 @@ test('published entry, stylesheet and nested presentation imports use their actu
  assert.ok(html.includes(`styles.css?v=${hash(css)}`));
  assert.ok(app.includes(`import('./experience.js?v=${hash(experience)}')`));
  assert.ok(experience.includes(`from './introductions.js?v=${hash(intro)}'`));
+ const live=await read('live-tutor.js'),settings=await read('live-tutor-settings.json');
+ assert.ok(app.includes(`import('./live-tutor.js?v=${hash(live)}')`));
+ assert.ok(app.includes(`'live-tutor-settings.json?v=${hash(settings)}'`));
  assert.doesNotMatch(intro,/Uma apresentação de 20 segundos com o personagem|Sem som automático\./);
  assert.match(intro,/atelier-stage/);
 });

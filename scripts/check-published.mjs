@@ -19,6 +19,8 @@ for(let attempt=0;attempt<18;attempt++){
   await get(html.match(/href="(styles\.css\?[^"\s]+)"/)[1],'styles.css');
   const experience=await get(app.match(/import\('(\.\/experience\.js\?[^']+)'\)/)[1],'experience.js');
   const intro=await get(experience.match(/from '(\.\/introductions\.js\?[^']+)'/)[1],'introductions.js');
+  await get(app.match(/import\('(\.\/live-tutor\.js\?[^']+)'\)/)[1],'live-tutor.js');
+  await get(app.match(/fetch\('(live-tutor-settings\.json\?[^']+)'/)[1],'live-tutor-settings.json');
   assert.doesNotMatch(intro,/Uma apresentação de 20 segundos com o personagem|Sem som automático\./);
   assert.match(intro,/atelier-stage/);
   console.log('Site público conferido: HTML, CSS, aplicativo e apresentação correspondem à versão publicada; aviso antigo ausente.');

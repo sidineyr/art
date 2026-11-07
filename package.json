@@ -6,7 +6,7 @@
   "description": "Percursos em Artes com referências verificadas e mural público moderado.",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "test": "node --test tests/content.test.mjs tests/mural-client.test.mjs",
+    "test": "node --test tests/content.test.mjs tests/mural-client.test.mjs tests/build-cache.test.mjs",
     "test:rules": "node --test tests/firestore.rules.test.mjs",
     "test:integration": "node --test tests/account-emulator.test.mjs"
   },

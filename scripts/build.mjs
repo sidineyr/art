@@ -3,7 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const out=path.join(root,'dist');
-const files=['index.html','styles.css','app.js','studio.js','mural.js','config.js','curriculum.json','resources.json','.nojekyll'];
+const files=['index.html','styles.css','app.js','studio.js','mural.js','config.js','counter.js','curriculum.json','resources.json','.nojekyll'];
 for(const file of files)await access(path.join(root,file));
 await mkdir(out,{recursive:true});
 for(const file of files)await copyFile(path.join(root,file),path.join(out,file));

@@ -22,3 +22,7 @@
 - Use o checkout existente e publique apenas os arquivos alterados em atualizações, preservando os demais.
 
 - Apresente o ART como plataforma online. Não ofereça instaladores, pacotes para instalação local ou instruções de instalação ao público; o código no GitHub destina-se à manutenção e evolução do projeto.
+
+## Colaboração no GitHub
+
+- Em tarefas que envolvam GitHub, consulte o GitHub Copilot para auxiliar a implementação ou revisar a proposta, conforme preferência expressa do responsável. Verifique suas sugestões antes de publicar. Se estiver indisponível, informe a limitação. Não envie credenciais ou registros privados de estudantes ao chat.

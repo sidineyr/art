@@ -24,3 +24,5 @@ footer .institution-links{height:20px;gap:6px;font-size:.5rem}footer .institutio
 .tool-row .button{background:var(--accent);color:var(--accent-ink)}.institution-links img{background:#fff}
 
 footer{min-height:180px}footer .institution-links{height:18px}footer .institution-links a{height:18px}
+
+footer .site-counter{display:flex;align-items:center;gap:8px;flex-wrap:wrap}footer .site-counter img{height:20px;width:110px;object-fit:contain}footer .site-counter small{font-size:.6rem;max-width:240px}

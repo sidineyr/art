@@ -74,6 +74,10 @@ Somente as imagens identificadas como domínio público ou CC0 foram incorporada
 
 As marcas no rodapé identificam as fontes consultadas. Os créditos podem ser conferidos em [resources.json](resources.json) e nas [fontes dos ícones institucionais](assets/institutions/SOURCES.json).
 
+## Acessos ao projeto
+
+O ART tem um contador público, independente de cadastro. O indicador registra carregamentos desde 7 de novembro de 2026; não representa pessoas únicas nem resultados de aprendizagem. A integração com o portfólio consulta o total original, sem acrescentar acessos ao ART.
+
 ## Autoria
 
 **Sidiney Rodrigues — professor e programador.**

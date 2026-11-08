@@ -137,3 +137,6 @@
   }
   window.addEventListener('hashchange', () => { if (privateRoute()) document.getElementById('sidineyr-advertising')?.remove(); });
 })();
+
+/* Bloco manual do Google AdSense: somente no rodapé. */
+(() => { if(document.querySelector("script[data-google-footer-loader]")) return; const loader=document.createElement("script"); loader.dataset.googleFooterLoader="true"; loader.src="https://sidineyr.github.io/assets/google-footer-ad.js"; loader.defer=true; document.head.append(loader); })();
